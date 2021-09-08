@@ -1,7 +1,6 @@
 import React from 'react';
 import './style.css';
 import './HeaderFooter.css'
-import cjw from './img/kimyoonjin.jpg';
 
 function PfIntro() {
     return (
