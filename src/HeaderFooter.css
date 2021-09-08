@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'GmarketSansLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.headerContainer{
+    position: absolute;
+    top: 0;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background: none;
+    font-family: 'GmarketSansLight';
+}
+.headerContainer>hr{
+    width: 100%;
+    z-index: 100;
+    color: white;
+}
+.logo{
+    position: absolute;
+    left: 2%;
+    font-size: 30px;
+    top: 25px;
+    z-index: 100;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(26, 42, 97);
+}
+.menu{
+    display: flex;
+    position: relative;
+    top: 30px;
+    left: 60%;
+    width: 40%;
+    float: left;
+    /* height: 30%; */
+}
+.introduction{
+    position: absolute;
+    left: 5%;
+    text-decoration: none;
+    color: black;
+}
+.introduction:hover{
+    text-shadow: 0px 4px 4px rgba(41, 38, 31, 0.3);
+}
+.curriculum{
+    position: absolute;
+    left: 32%;
+    text-decoration: none;
+    color: black;
+}
+.curriculum:hover{
+    text-shadow: 0px 4px 4px rgba(41, 38, 31, 0.3);
+}
+.roadmap{
+    position: absolute;
+    left: 57%;
+    text-decoration: none;
+    color: black;
+}
+.roadmap:hover{
+    text-shadow: 0px 4px 4px rgba(41, 38, 31, 0.3);
+}
+.club{
+    position: absolute;
+    left: 80%;
+    text-decoration: none;
+    color: black;
+}
+.club:hover{
+    text-shadow: 0px 4px 4px rgba(41, 38, 31, 0.3);
+}
+
+.footer {
+    box-sizing: border-box;
+    position: relative;
+    max-width: 980px;
+    margin: 0 auto;
+    bottom: 0;
+    border-top: 1px solid #0579fe4d;
+    height: 100px;
+    padding: 30px;
+    background: none;
+}
+.footer_center li {
+    width: 25%;
+    box-sizing: border-box;
+    position: relative;
+    font-size: 6px;
+    color:#0578FE;
+    font-weight: bold;
+    padding: 10px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 70px;
+    background: none;
+}

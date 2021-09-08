@@ -1,0 +1,253 @@
+@font-face {
+    font-family: 'GmarketSansLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: 'GmarketSansLight';
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: #f9fafe;
+}
+
+.inner {
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 980px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.inner .main__banner {
+    position: relative;
+    margin: 0 auto;
+    width: 700px;
+    margin-top: 130px;
+    margin-bottom: 30px;
+    padding-bottom: 25px;
+    font-size: 37px;
+    color: #626262;
+    text-shadow: 0px 2px 2px rgba(41, 38, 31, 0.2);
+    border-bottom: 1px solid #3c4146;
+}
+
+.classTab {
+    max-width: 780px;
+    position: relative;
+    height: 35px;
+    padding: 10px;
+    padding-left: 15px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    position: relative;
+    margin-bottom: 30px;
+}
+.classTab li {
+    display: flex;  
+    box-sizing: border-box;
+    float: left;
+    width: 33%;
+}
+.classTab li a {
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 auto;
+    text-shadow: 0px 2px 2px rgba(41, 38, 31, 0.2);
+    color:#0578FE;
+
+}
+
+.inner .banner {
+    font-family: 'GmarketSansMedium';
+    display: block;
+    padding: 35px;
+    font-size: 40px;
+    border-bottom: 1px solid #c4c4c4;
+}
+
+.inner .major_title_1 {
+    font-family: 'GmarketSansLight';
+    padding-top: 30px;
+    font-size: 12px;
+    line-height: 41.02px;
+    text-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+}
+.inner .major_title_2 {
+    font-family: 'GmarketSansMedium';
+    display: block;
+    margin: 0 auto;
+    font-size: 40px;
+    font-weight: 550;
+    text-shadow: 0px 6px 8px rgba(0,0,0,0.25);
+}
+.inner .major_title_3 {
+    font-family: 'GmarketSansLight';
+    display: block;
+    margin: 0 auto;
+    padding-top: 13px;
+    padding-bottom: 20px;
+    font-size: 15px;
+    font-weight: lighter;
+    text-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+}
+
+.inner .summary__title {
+    display: block;
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+.inner p {
+    margin: auto;
+    max-width: 780px;
+}
+.inner .summary__description {
+    display: block;
+    padding-top: 10px;
+    font-size:14px;
+    color: #626262;
+    padding-bottom: 70px;
+}
+.inner .summary__description span {
+    color: #000000;
+}
+
+.main-menu {
+    display: flex;
+}
+.main-menu li a {
+    text-decoration: none;
+    display: block;
+    padding-left: 50px;
+    padding-top: 20px;
+    color: #3c4146;
+}
+.main-menu li a:hover{
+    color: #4078c0
+}
+.pfInfo .name {
+    font-weight: bold;
+    font-size: 14px;
+    color: #0578FE;
+}
+
+.section {
+    position: relative; 
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.inner .tiles {
+    margin-bottom: 20px;
+    height: 1500px;
+}
+.inner .tiles li {
+    list-style-type : none;
+    border-radius: 15px;
+    background: #ffffff;
+    padding: 20px 10px;
+    text-align: center;
+    line-height: 1.5;
+    border-right: 1px solid #e5e5e5;
+    box-sizing: border-box;
+    float: left;
+    width: 23%;
+    height: 280px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 5px 1px rgba(47, 76, 207, 0.2);
+}
+.inner .tiles li:last-child {
+  border-right: none;
+}
+.inner .tiles li img {
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  padding: 5px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  border: 1px solid rgba(41, 38, 31, 0.2);
+  box-shadow: 1px 1px 5px 1px rgba(47, 76, 207, 0.2);
+}
+.inner .tiles li h3 {
+    font-family: 'GmarketSansMedium';
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+.inner .tiles li p {
+  font-size: 10px;
+  margin-bottom: 4px;
+  color: #767676;
+}
+.inner .tiles .majordiv {
+    display: inline-block;
+    background: #eaeefd;
+    color: #0578FE;
+    font-size: 8px;
+    padding: 3px 12px 3px 12px;
+    border-radius: 4px;
+    margin: 3px 18px 3px 18px;
+    text-align: center;
+    box-shadow: 1px 1px 1px 1px rgba(121, 137, 207, 0.2);
+}
+.inner .tiles .office{
+    font-size: 10px;
+    display: block;
+    width: 45%;
+    background: #eaeefd;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-left: 6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 10px;
+    float: left;
+    box-shadow: 1px 1px 1px 1px rgba(121, 137, 207, 0.2);
+}
+
+/* PRICING CARD  */
+.section--pricing {
+  background: linear-gradient(#f5f5f5, #fff);
+}
+.section--pricing .inner {
+  padding: 80px 0;
+}
+.section--pricing .card {
+  display: flex;
+  border: 1px solid #e5e5e5;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+.section--pricing .card .cell {
+  padding: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section--pricing .card .cell1 .btn {
+  height: 50px;
+  font-size: 16px;
+}
+.section--pricing .card .cell2 {
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 1.5;
+  flex: 1;
+  border-left: 1px solid #e5e5e5;
+}
+.section--feature .pfInfoDiv {
+    border:rgba(41, 38, 31, 0.2);
+    border-radius: 50%;
+}
