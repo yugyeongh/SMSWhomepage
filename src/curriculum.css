@@ -1,0 +1,297 @@
+@font-face {
+    font-family: 'GmarketSansLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: "GmarketSansLight";
+}
+
+.sub_intro_page{
+    position: relative;
+    /* border: 1px solid black ; */
+    top: 50px;
+    width: 89%;
+    height: 2800px;
+    left: 7%;
+    overflow: hidden;
+}
+/* 타이틀 */
+.title-text {
+    width: 150px;
+    position: absolute;
+    top: 60px;
+    left: 51%;
+    transform: translateX(-50%);
+    color: #636363;
+    font-family: Roboto;
+    font-weight: Regular;
+    font-size: 36px;
+}
+
+/* 학과별 과목 그룹 */
+.common-subject{
+    width: 20%;
+    height: 2500px;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.cs-subject{
+    width: 35%;
+    height: 2500px;
+    position: absolute;
+    top: 100px;
+    left: 2%;
+    z-index: 1;
+}
+
+.sw-subject{
+    width: 35%;
+    height: 2500px;
+    position: absolute;
+    top: 100px;
+    left: 63%;
+    z-index: 1;
+}
+
+ /* 과목 박스 */
+.box {
+    width: 160px;
+    height: 60px;
+    z-index: 0;
+    box-shadow: 5px 5px 5px rgba(199, 199, 199, 0.632);
+    border-radius: 23px;
+    position: absolute;
+    z-index: -1;
+    border: 1px solid rgba(189, 189, 189, 0.392);
+}
+.box:hover{
+    box-shadow: 3px 3px 5px rgba(228, 228, 228, 0.605) inset;
+}
+.box-center{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); 
+}
+.box-left{
+    position:absolute;
+    left: 25%;
+    transform: translateX(-50%);  
+}
+.box-right{
+    position:absolute;
+    left: 75%;
+    transform: translateX(-50%);
+}
+.box-back1 {background: rgba(250,250,250,1); color: black;}       
+.box-back2 { background: rgb(255, 255, 255); color: rgb(68, 68, 123);}
+.box-back3 { background: rgb(255, 255, 255); color: rgb(135, 135, 135);}
+.box-text1 {
+    font-size: 15px;
+    text-align: center;
+    padding-top: 22px;
+    font-family: 'GmarketSansLight';
+}
+.box-text2 {
+    font-size: 15px;
+    text-align: center;
+    padding-top: 8px;
+    line-height: 1.5em;
+    font-family: 'GmarketSansLight';
+}
+
+/* 각자 과목 박스들의 높이 지정 */
+#cs1,#sw3,#sw4{top: 630px;}
+#cs2,#cs3,#sw5{top: 950px;}
+#cs4,#cs5,#sw6,#sw7{top: 1270px;}
+#cs6,#cs7,#sw8{top: 1350px;}
+#cs8,#cs9,#sw10,#sw11{top: 1550px;}
+#cs10,#cs11,#sw12,#sw13{top: 1970px;}
+#cs12, #cs13 {top: 2050px;}
+#cs14{top: 2450px;}
+#cs15,#sw14{top: 2220px;}
+#c1{top: 30px;}
+#c2{top: 130px;}
+#c3{top: 280px;}
+#c4{top: 490px;}
+#c5{top: 710px;}
+#c6{top: 810px;}
+#c7{top: 1030px;}
+#c8{top: 1130px;}
+#c9{top: 1400px;}
+#c10{top: 1650px;}
+#c11{top: 1740px;}
+#c12{top: 1830px;}
+#c13{top: 2080px;}
+#c14{top: 2300px;}
+#c15{top: 2400px;}
+#c16{top: 2520px;}
+#sw1{top: 200px;}
+#sw2{top: 390px;}
+#sw9{top: 1630px}
+
+/* 과목 소개 line */
+.lines {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}  
+
+.lineDown {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0px;
+    height: 0px;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    z-index: 100;
+}
+.l_1{top: 200px; height: 270px; border: 20px solid #fce299;}
+.ld1{top: 470px; border-top: 20px solid #fce299;}
+.l_2{top: 470px; height: 220px; border: 20px solid #ffcc41;}
+.ld2{top: 690px; border-top: 20px solid #ffcc41;}
+.l_3{top: 690px; height: 320px; border: 20px solid rgb(163, 232, 194);}
+.ld3{top: 1010px; border-top: 20px solid rgb(163, 232, 194);}
+.l_4{top: 1010px; height: 320px; border: 20px solid rgb(123, 212, 173);}
+.ld4{top: 1330px; border-top: 20px solid rgb(123, 212, 173);}
+.l_5{top: 1330px; height: 270px; border: 20px solid #97ceee;}
+.ld5{top: 1600px; border-top: 20px solid #97ceee;}
+.l_6{top: 1600px; height: 420px; border: 20px solid #63BFF3;}
+.ld6{top: 2020px; border-top: 20px solid #63BFF3;}
+.l_7{top: 2020px; height: 270px; border: 20px solid #6e82cb;}
+.ld7{top: 2290px; border-top: 20px solid #6e82cb;}
+.l_8{top: 2290px; height: 420px; border: 20px solid #445CB4;}
+.ld8{top: 2710px; border-top: 20px solid #445CB4;}
+
+/* 소개 라인별 구역*/
+.line1 { /* 0-- 모양*/
+    width: 210px;
+    height: 30px;
+    position: absolute;
+    left: 50%;
+    transform: translateY(70%);
+}
+.line2 { /* --0-- 모양 */
+    width: 390px;
+    height: 30px;
+    position: absolute; 
+}
+#l1{top: 300px;}
+#l2{top: 500px;}
+#l3{top: 750px;}
+#l4{top: 1070px;}
+#l5{top: 1390px;}
+#l6{top: 1670px;}
+#l7{top: 2080px;}
+#l8{top: 2340px;}
+
+.line-circle01 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0%;
+    transform: translateX(-50%);
+    border: 1px solid rgba(113, 113, 113, 0.968);
+    border-radius: 50%;
+}
+.line-circle02 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid rgba(113, 113, 113, 0.968);
+    border-radius: 50%;
+}
+.cs-line02 {
+    width: 180px;
+    opacity: 1;
+    position: absolute;
+    top: 9px;
+    left: 0%;
+    border: 1px solid rgba(113, 113, 113, 0.4);
+}
+.sw-line01 {
+    width: 180px;
+    opacity: 1;
+    position: absolute;
+    top: 9px;
+    left: 7%;
+    border: 1px solid rgba(113, 113, 113, 0.4);
+}
+.sw-line02 {
+    width: 180px;
+    opacity: 1;
+    position: absolute;
+    top: 9px;
+    left: 54%;
+    border: 1px solid rgba(113, 113, 113, 0.4);
+}
+
+/* 모달창 관련 */
+.modal_chang{
+    display: none;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(189, 189, 189, 0.324);
+    z-index: 3000;
+}
+.modal{
+    position: absolute;
+    width: 350px;
+    left: 52%;
+    transform: translateX(-50%);
+    top: 35%;
+}
+.modal_bar{
+    width: 350px;
+    height: 55px;
+    background-color: #f1f2f5;
+    border-radius: 10px 10px 0px 0px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.contents{
+    width: 350px;
+    height: 250px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 55px;
+    left: 0px;
+    border: 2px solid #f1f2f5; /*1pt는 어떤지*/
+    padding: 10px;
+    text-align: center;
+}
+.modal_buttons { 
+width: 66px;
+height: 13px;
+opacity: 1;
+position: absolute;
+top: 20px;
+left: 20px;
+}
+.button{
+    width: 13px;
+    height: 13px;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    border-radius: 50%;
+}
+.red { left: 0px; background: rgba(246,73,73,1); }
+.yellow { left: 26px; background: rgba(255,174,27,1); }
+.green { left: 53px; background: rgba(36,159,69,1);} 
