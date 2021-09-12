@@ -9,13 +9,13 @@ const Club = () => {
                 <input type="radio" name="tab" id="menu"/>
                 <div className="container">
                 
-                    <input type="radio" name="tab" checked="checked" id="intro"/>
+                    <input type="radio" name="tab" defaultChecked="checked" id="intro"/>
                     <section className="intro">
                         <h1>동아리소개</h1>
                         <div className="content">
                         X를 눌러 뒤로간 후 <br/> 숙명여자대학교 소프트웨어학부의 동아리들을 살펴보세요.
                         </div>
-                        <label for="intro"></label>
+                        <label htmlFor="intro"></label>
                     </section>
 
                     <input type="radio" name="tab" id="siss"/>
@@ -29,7 +29,7 @@ const Club = () => {
                         <br/> 대외활동으로는 Inc0gnito, Power of XX, Hacking Camp, 
                         <br/> 타대 보안동아리와의 연합 스터디및 세미나를 진행합니다.
                         </div>
-                        <label for="siss"></label>
+                        <label htmlFor="siss"></label>
                     </section>
 
                     <input type="radio" name="tab" id="algos"/>
@@ -45,7 +45,7 @@ const Club = () => {
                         <br/> 매달 코딩테스트를 연습하고 설명하는 정기 세미나를 가집니다.
                         <br/> 선배님과 소통할 수 있는 홈커밍 데이도 있습니다.
                         </div>
-                        <label for="algos"></label>
+                        <label htmlFor="algos"></label>
                     </section>
 
                     <input type="radio" name="tab" id="forza"/>
@@ -58,7 +58,7 @@ const Club = () => {
                         <br/> 2학기에는 팀별로 진행하는 c언어 문제풀이 스터디를 진행합니다.
                         <br/> 선후배간의 친목을 다지기 위한 환영회, MT, 가을소풍등도 진행합니다.
                         </div>
-                        <label for="forza"></label>
+                        <label htmlFor="forza"></label>
                     </section>
 
                     <input type="radio" name="tab" id="apps"/>
@@ -73,7 +73,7 @@ const Club = () => {
                         <br/> 2학기에는 다양한 학년이 모여 진행하는 사이드 프로젝트를 진행합니다.
                         <br/> 신입부원과 기존 부원과의 멘토-멘티제 운영합니다.
                         </div>
-                        <label for="apps"></label>
+                        <label htmlFor="apps"></label>
                     </section>
                     
                     <input type="radio" name="tab" id="solux"/>
@@ -87,13 +87,13 @@ const Club = () => {
                         <br/> 팀별로 자유롭게 스터디를 진행합니다. 
                         <br/> 파이썬과 다양한 분야를 접목해 자율주제로 프로젝트도 진행합니다.
                         </div>
-                        <label for="solux"></label>
+                        <label htmlFor="solux"></label>
                     </section>
                 </div>
 
                 <div className="menu">
                 <div>
-                    <label for="menu"></label>
+                    <label htmlFor="menu"></label>
                 </div>
                 </div>
             </form>   
