@@ -28,7 +28,7 @@
     font-weight: bold;
     color: rgb(26, 42, 97);
 }
-.menu{
+.homemenu{
     display: flex;
     position: relative;
     top: 30px;
