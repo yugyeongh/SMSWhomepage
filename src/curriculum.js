@@ -354,40 +354,46 @@ const Curriculum = () => {
             <div className="lineDown ld8"></div> 
             
             <div className="lines line1" id="l1">
-                <div className="line-circle01"></div>
+                <div className="line-circle01 c01"></div>
                 <div className="sw-line01"></div>
             </div>
             <div className="lines line1" id="l2">
-                <div className="line-circle01"></div>
+                <div className="line-circle01 c02"></div>
                 <div className="sw-line01"></div>
             </div>
             <div className="lines line2" id="l3">
-                <div className="line-circle02"></div>
+                <div className="line-circle02 c03"></div>
+                <div className="line-circle03 c03"></div>
                 <div className="sw-line02"></div>
                 <div className="cs-line02"></div>
             </div>
             <div className="lines line2" id="l4">
-                <div className="line-circle02"></div>
+                <div className="line-circle02 c04"></div>
+                <div className="line-circle03 c04"></div>
                 <div className="sw-line02"></div>
                 <div className="cs-line02"></div>
             </div>
             <div className="lines line2" id="l5">
-                <div className="line-circle02"></div>
+                <div className="line-circle02 c05"></div>
+                <div className="line-circle03 c05"></div>
                 <div className="sw-line02"></div>
                 <div className="cs-line02"></div>
             </div>
             <div className="lines line2" id="l6">
-                <div className="line-circle02"></div>
+                <div className="line-circle02 c06"></div>
+                <div className="line-circle03 c06"></div>
                 <div className="sw-line02"></div>
                 <div className="cs-line02"></div>
             </div>
             <div className="lines line2" id="l7">
-                <div className="line-circle02"></div>
+                <div className="line-circle02 c07"></div>
+                <div className="line-circle03 c07"></div>
                 <div className="sw-line02"></div>
                 <div className="cs-line02"></div>
             </div>
             <div className="lines line2" id="l8">
-                <div className="line-circle02"></div>
+                <div className="line-circle02 c08"></div>
+                <div className="line-circle03 c08"></div>
                 <div className="sw-line02"></div>
                 <div className="cs-line02"></div>
             </div> 
