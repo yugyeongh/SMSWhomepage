@@ -48,14 +48,14 @@ function Main() {
             </div>
         </div>
 
-        <footer class="footer inner">
+        {/* <footer class="footer inner">
                 <ul class="footer_center">
                     <li>ⓒ Comsongz Corp.</li>
                     <li>Creator | Comsongz</li>
                     <li>Developers | Comsongz</li>
                     <li>DEPARTMENT | Apps of SMWU</li>
                 </ul>
-        </footer>
+        </footer> */}
     </>        
     );
 }
