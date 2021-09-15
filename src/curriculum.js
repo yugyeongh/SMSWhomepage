@@ -1,7 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './curriculum.css';
+import Modal from "./cmodal";
 
 const Curriculum = () => {
+    const [isShowing, setIsShowing] = useState(false);
+    const openModal = () => {
+        setIsShowing(true);
+    };
+
     return(
         <>
         <div className="sub_intro_page">
@@ -398,7 +404,13 @@ const Curriculum = () => {
                 <div className="cs-line02"></div>
             </div> 
            
-        </div>                   
+        </div> 
+
+        <div>
+        {/* 각자 div에 onclick openModal을 추가하고 Modal태그의 메세지에 과목 설명 적으면 됨 */}
+        <button onClick={openModal}>Open modal</button>
+        <div>{isShowing && <Modal message="This is Modal" />}</div>
+        </div>
 
         <footer className="footer inner">
         <ul className="footer_center">

@@ -253,9 +253,9 @@
     border: 1px solid rgba(113, 113, 113, 0.4);
 }
 
+
 /* 모달창 관련 */
-.modal_chang{
-    display: none;
+.Cmodal_chang{
     position: fixed;
     width: 100vw;
     height: 100vh;
