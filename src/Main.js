@@ -40,22 +40,22 @@ function Main() {
                     <a className="cardlink" href="/sw_intro">Read More</a>
                 </div>
             </div>
-            <div>
+            <div className="linkTab">
                 <a className="smLink" href="https://snowboard.sookmyung.ac.kr/login.php" align="center" target="_blank" rel="noreferrer">SNOWBOARD</a>
                 <a className="smLink" href="http://www.sookmyung.ac.kr/sookmyungkr/index.do" align="center" target="_blank" rel="noreferrer">SMWU HOME</a>
                 <a className="smLink" href="https://portal.sookmyung.ac.kr/irj/portal" align="center" target="_blank" rel="noreferrer">SM POTAL</a>
                 <a className="smLink" href="https://wise.sookmyung.ac.kr" align="center" target="_blank" rel="noreferrer">SM WISE</a>
             </div>
-        </div>
 
-        {/* <footer class="footer inner">
+            <div class="footer inner">
                 <ul class="footer_center">
                     <li>ⓒ Comsongz Corp.</li>
                     <li>Creator | Comsongz</li>
                     <li>Developers | Comsongz</li>
                     <li>DEPARTMENT | Apps of SMWU</li>
                 </ul>
-        </footer> */}
+            </div>
+        </div>
     </>        
     );
 }
