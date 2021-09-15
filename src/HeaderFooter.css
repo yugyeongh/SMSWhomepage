@@ -78,14 +78,15 @@
     box-sizing: border-box;
     position: relative;
     max-width: 980px;
-    margin: 0 auto;
+    justify-content: center;
     bottom: 0;
     border-top: 1px solid #0579fe4d;
     height: 100px;
-    padding: 30px;
+    padding: 20px;
     background: none;
+    overflow: hidden;
 }
-.footer_center li {
+.footer .footer_center li {
     width: 25%;
     box-sizing: border-box;
     position: relative;
