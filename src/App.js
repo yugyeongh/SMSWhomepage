@@ -5,12 +5,10 @@ import CsIntro from './cs_intro.js';
 import SWIntro from './sw_intro.js';
 import PfIntro from "./pf_intro.js";
 import Curriculum from "./curriculum.js";
+import RoadMap from "./roadmap.js";
 import Club from "./club.js";
 import './HeaderFooter.css';
 import './App.css';
-
-
-
 
 const App = () => {
   return (
@@ -20,6 +18,7 @@ const App = () => {
       <Route path="/sw_intro" component={SWIntro} />
       <Route path="/pf_intro" component={PfIntro} />
       <Route path="/curriculum" component={Curriculum} />
+      <Route path="/roadmap" component={RoadMap} />
       <Route path="/club" component={Club} />
     </div>
   );

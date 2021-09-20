@@ -1,0 +1,1809 @@
+[
+    {
+        "data": {
+            "id": "BE",
+            "label": "BackEnd"
+        }
+    },{
+        "data": {
+            "id": "FE",
+            "label": "FrontEnd"
+        }
+    },{
+        "data": {
+            "id": "SE",
+            "label": "정보보안"
+        }
+    },{
+        "data": {
+            "id": "DS",
+            "label": "Data Science"
+        }
+    },{
+        "data": {
+            "id": "DO",
+            "label": "DevOps"
+        }
+    },
+
+    {
+        "data": {
+            "id": "BASIC-internet",
+            "label": "인터넷 기본 지식"
+        }
+    },{
+        "data": {
+            "id": "BE->BASIC-internet",
+            "source": "BASIC-internet",
+            "target": "BE"
+        }
+    },{
+        "data": {
+            "id": "BASIC-internet-http",
+            "label": "HTTP"
+        }
+    },{
+        "data": {
+            "id": "BASIC-internet->BASIC-internet-http",
+            "source": "BASIC-internet-http",
+            "target": "BASIC-internet"
+        }
+    },{
+        "data": {
+            "id": "BASIC-internet-dns",
+            "label": "DNS"
+        }
+    },{
+        "data": {
+            "id": "BASIC-internet->BASIC-internet-dns",
+            "source": "BASIC-internet-dns",
+            "target": "BASIC-internet"
+        }
+    },{
+        "data": {
+            "id": "BASIC-internet-hosting",
+            "label": "호스팅"
+        }
+    },{
+        "data": {
+            "id": "BASIC-internet->BASIC-internet-hosting",
+            "source": "BASIC-internet-hosting",
+            "target": "BASIC-internet"
+        }
+    },{
+        "data": {
+            "id": "BASIC-internet-domain",
+            "label": "domain"
+        }
+    },{
+        "data": {
+            "id": "BASIC-internet->BASIC-internet-domain",
+            "source": "BASIC-internet-domain",
+            "target": "BASIC-internet"
+        }
+    },{
+        "data": {
+            "id": "BASIC-FE",
+            "label": "기본적인 FE 지식"
+        }
+    },{
+        "data": {
+            "id": "BE->BASIC-FE",
+            "source": "BASIC-FE",
+            "target": "BE"
+        }
+    },{
+        "data": {
+            "id": "BASIC-FE-html",
+            "label": "HTML"
+        }
+    },{
+        "data": {
+            "id": "BASIC-FE->BASIC-FE-html",
+            "source": "BASIC-FE-html",
+            "target": "BASIC-FE"
+        }
+    },{
+        "data": {
+            "id": "BASIC-FE-js",
+            "label": "javascript"
+        }
+    },{
+        "data": {
+            "id": "BASIC-FE->BASIC-FE-js",
+            "source": "BASIC-FE-js",
+            "target": "BASIC-FE"
+        }
+    },{
+        "data": {
+            "id": "BASIC-FE-css",
+            "label": "CSS"
+        }
+    },{
+        "data": {
+            "id": "BASIC-FE->BASIC-FE-css",
+            "source": "BASIC-FE-css",
+            "target": "BASIC-FE"
+        }
+    },{
+        "data": {
+            "id": "BASIC-env",
+            "label": "개발환경에 대한 전반적인 이해"
+        }
+    },{
+        "data": {
+            "id": "BE->BASIC-env",
+            "source": "BASIC-env",
+            "target": "BE"
+        }
+    },{
+        "data": {
+            "id": "BASIC-env-terminal",
+            "label": "터미널 사용법"
+        }
+    },{
+        "data": {
+            "id": "BASIC-env->BASIC-env-terminal",
+            "source": "BASIC-env-terminal",
+            "target": "BASIC-env"
+        }
+    },{
+        "data": {
+            "id": "BASIC-env-arch",
+            "label": "컴퓨터 구조"
+        }
+    },{
+        "data": {
+            "id": "BASIC-env->BASIC-env-arch",
+            "source": "BASIC-env-arch",
+            "target": "BASIC-env"
+        }
+    },{
+        "data": {
+            "id": "BASIC-env-os",
+            "label": "운영체제"
+        }
+    },{
+        "data": {
+            "id": "BASIC-env->BASIC-env-os",
+            "source": "BASIC-env-os",
+            "target": "BASIC-env"
+        }
+    },{
+        "data": {
+            "id": "BASIC-env-os-linux",
+            "label": "Linux"
+        }
+    },{
+        "data": {
+            "id": "BASIC-env-os->BASIC-env-os-linux",
+            "source": "BASIC-env-os-linux",
+            "target": "BASIC-env-os"
+        }
+    },{
+        "data": {
+            "id": "BASIC-env-os-unix",
+            "label": "Unix"
+        }
+    },{
+        "data": {
+            "id": "BASIC-env-os->BASIC-env-os-unix",
+            "source": "BASIC-env-os-unix",
+            "target": "BASIC-env-os"
+        }
+    },{
+        "data": {
+            "id": "BASIC-env-os-windows",
+            "label": "Windows"
+        }
+    },{
+        "data": {
+            "id": "BASIC-env-os->BASIC-env-os-windows",
+            "source": "BASIC-env-os-windows",
+            "target": "BASIC-env-os"
+        }
+    },{
+        "data": {
+            "id": "BASIC-env-process",
+            "label": "프로세스 관리"
+        }
+    },{
+        "data": {
+            "id": "BASIC-env->BASIC-env-process",
+            "source": "BASIC-env-process",
+            "target": "BASIC-env"
+        }
+    },{
+        "data": {
+            "id": "BASIC-env-io",
+            "label": "입출력 관리"
+        }
+    },{
+        "data": {
+            "id": "BASIC-env->BASIC-env-io",
+            "source": "BASIC-env-io",
+            "target": "BASIC-env"
+        }
+    },{
+        "data": {
+            "id": "BASIC-env-memory",
+            "label": "메모리 관리"
+        }
+    },{
+        "data": {
+            "id": "BASIC-env->BASIC-env-memory",
+            "source": "BASIC-env-memory",
+            "target": "BASIC-env"
+        }
+    },{
+        "data": {
+            "id": "BASIC-env-network",
+            "label": "기본적인 네트워크 지식"
+        }
+    },{
+        "data": {
+            "id": "BASIC-env->BASIC-env-network",
+            "source": "BASIC-env-network",
+            "target": "BASIC-env"
+        }
+    },{
+        "data": {
+            "id": "BE-lang",
+            "label": "프로그래밍 언어"
+        }
+    },{
+        "data": {
+            "id": "BE->BE-lang",
+            "source": "BE-lang",
+            "target": "BE"
+        }
+    },{
+        "data": {
+            "id": "BE-lang-java",
+            "label": "JAVA"
+        }
+    },{
+        "data": {
+            "id": "BE-lang->BE-lang-java",
+            "source": "BE-lang-java",
+            "target": "BE-lang"
+        }
+    },{
+        "data": {
+            "id": "BE-lang-python",
+            "label": "Python"
+        }
+    },{
+        "data": {
+            "id": "BE-lang->BE-lang-python",
+            "source": "BE-lang-python",
+            "target": "BE-lang"
+        }
+    },{
+        "data": {
+            "id": "BE-lang-ruby",
+            "label": "Ruby"
+        }
+    },{
+        "data": {
+            "id": "BE-lang->BE-lang-ruby",
+            "source": "BE-lang-ruby",
+            "target": "BE-lang"
+        }
+    },{
+        "data": {
+            "id": "BE-lang-js",
+            "label": "javascript"
+        }
+    },{
+        "data": {
+            "id": "BE-lang->BE-lang-js",
+            "source": "BE-lang-js",
+            "target": "BE-lang"
+        }
+    },{
+        "data": {
+            "id": "BE-lang-go",
+            "label": "Go"
+        }
+    },{
+        "data": {
+            "id": "BE-lang->BE-lang-go",
+            "source": "BE-lang-go",
+            "target": "BE-lang"
+        }
+    },{
+        "data": {
+            "id": "BE-lang-c",
+            "label": "C/C++"
+        }
+    },{
+        "data": {
+            "id": "BE-lang->BE-lang-c",
+            "source": "BE-lang-c",
+            "target": "BE-lang"
+        }
+    },
+
+    {
+        "data": {
+            "id": "BE-framework",
+            "label": "Framework"
+        }
+    },{
+        "data": {
+            "id": "BE->BE-framework",
+            "source": "BE-framework",
+            "target": "BE"
+        }
+    },{
+        "data": {
+            "id": "BE-framework-spring",
+            "label": "Spring"
+        }
+    },{
+        "data": {
+            "id": "BE-framework->BE-framework-spring",
+            "source": "BE-framework-spring",
+            "target": "BE-framework"
+        }
+    },{
+        "data": {
+            "id": "BE-framework-express",
+            "label": "Express"
+        }
+    },{
+        "data": {
+            "id": "BE-framework->BE-framework-express",
+            "source": "BE-framework-express",
+            "target": "BE-framework"
+        }
+    },{
+        "data": {
+            "id": "BE-framework-django",
+            "label": "Django"
+        }
+    },{
+        "data": {
+            "id": "BE-framework->BE-framework-django",
+            "source": "BE-framework-django",
+            "target": "BE-framework"
+        }
+    },{
+        "data": {
+            "id": "BE-framework-ruby",
+            "label": "Ruby on Rails"
+        }
+    },{
+        "data": {
+            "id": "BE-framework->BE-framework-ruby",
+            "source": "BE-framework-ruby",
+            "target": "BE-framework"
+        }
+    },
+
+    {
+        "data": {
+            "id": "version",
+            "label": "버전 관리 시스템"
+        }
+    },{
+        "data": {
+            "id": "BE->version",
+            "source": "version",
+            "target": "BE"
+        }
+    },{
+        "data": {
+            "id": "version-git",
+            "label": "Git"
+        }
+    },{
+        "data": {
+            "id": "version->version-git",
+            "source": "version-git",
+            "target": "version"
+        }
+    },
+
+    {
+        "data": {
+            "id": "db",
+            "label": "데이터베이스"
+        }
+    },{
+        "data": {
+            "id": "BE->db",
+            "source": "db",
+            "target": "BE"
+        }
+    },{
+        "data": {
+            "id": "db-relationDB",
+            "label": "관계형 데이터베이스"
+        }
+    },{
+        "data": {
+            "id": "db->db-relationDB",
+            "source": "db-relationDB",
+            "target": "db"
+        }
+    },{
+        "data": {
+            "id": "db-relationDB-mysql",
+            "label": "MySQL"
+        }
+    },{
+        "data": {
+            "id": "db-relationDB->db-relationDB-mysql",
+            "source": "db-relationDB-mysql",
+            "target": "db-relationDB"
+        }
+    },{
+        "data": {
+            "id": "db-relationDB-oracle",
+            "label": "Oracle"
+        }
+    },
+    {    "data": {
+            "id": "db-relationDB->db-relationDB-oracle",
+            "source": "db-relationDB-oracle",
+            "target": "db-relationDB"
+        }
+    },{
+        "data": {
+            "id": "db-relationDB-maria",
+            "label": "MariaDB"
+        }
+    },{
+        "data": {
+            "id": "db-relationDB->db-relationDB-maria",
+            "source": "db-relationDB-maria",
+            "target": "db-relationDB"
+        }
+    },{
+        "data": {
+            "id": "db-relationDB-mssql",
+            "label": "MS SQL"
+        }
+    },{
+        "data": {
+            "id": "db-relationDB->db-relationDB-mssql",
+            "source": "db-relationDB-mssql",
+            "target": "db-relationDB"
+        }
+    },{
+        "data": {
+            "id": "db-nonrelationDB",
+            "label": "비관계형 데이터베이스"
+        }
+    },{
+        "data": {
+            "id": "db->db-nonrelationDB",
+            "source": "db-nonrelationDB",
+            "target": "db"
+        }
+    },{
+        "data": {
+            "id": "db-nonrelationDB-nosql",
+            "label": "NoSQL"
+        }
+    },{
+        "data": {
+            "id": "db-nonrelationDB->db-nosql",
+            "source": "db-nonrelationDB-nosql",
+            "target": "db-nonrelationDB"
+        }
+    },{
+        "data": {
+            "id": "db-nonrelationDB-dynamo",
+            "label": "DynamoDB"
+        }
+    },{
+        "data": {
+            "id": "db-nonrelationDB->db-dynamo",
+            "source": "db-nonrelationDB-dynamo",
+            "target": "db-nonrelationDB"
+        }
+    },{
+        "data": {
+            "id": "db-nonrelationDB-mongo",
+            "label": "MongoDB"
+        }
+    },{
+        "data": {
+            "id": "db-nonrelationDB->db-mongo",
+            "source": "db-nonrelationDB-mongo",
+            "target": "db-nonrelationDB"
+        }
+    },
+
+    {
+        "data": {
+            "id": "BE-api",
+            "label": "APIs"
+        }
+    },{
+        "data": {
+            "id": "BE->BE-api",
+            "source": "BE-api",
+            "target": "BE"
+        }
+    },{
+        "data": {
+            "id": "BE-api-json",
+            "label": "JSON APIs"
+        }
+    },{
+        "data": {
+            "id": "BE-api->BE-api-json",
+            "source": "BE-api-json",
+            "target": "BE-api"
+        }
+    },{
+        "data": {
+            "id": "BE-api-rest",
+            "label": "REST"
+        }
+    },{
+        "data": {
+            "id": "BE-api->BE-api-rest",
+            "source": "BE-api-rest",
+            "target": "BE-api"
+        }
+    },{
+        "data": {
+            "id": "BE-api-auth",
+            "label": "authenticate"
+        }
+    },{
+        "data": {
+            "id": "BE-api->BE-api-auth",
+            "source": "BE-api-auth",
+            "target": "BE-api"
+        }
+    },
+
+    {
+        "data": {
+            "id": "BE-caching",
+            "label": "caching"
+        }
+    },{
+        "data": {
+            "id": "BE->BE-caching",
+            "source": "BE-caching",
+            "target": "BE"
+        }
+    },{
+        "data": {
+            "id": "BE-caching-cdn",
+            "label": "CDN"
+        }
+    },{
+        "data": {
+            "id": "BE-caching->BE-caching-cdn",
+            "source": "BE-caching-cdn",
+            "target": "BE-caching"
+        }
+    },{
+        "data": {
+            "id": "BE-caching-server",
+            "label": "server side"
+        }
+    },{
+        "data": {
+            "id": "BE-caching->BE-caching-server",
+            "source": "BE-caching-server",
+            "target": "BE-caching"
+        }
+    },{
+        "data": {
+            "id": "BE-caching-server-redis",
+            "label": "Redis"
+        }
+    },{
+        "data": {
+            "id": "BE-caching-server->BE-caching-server-redis",
+            "source": "BE-caching-server-redis",
+            "target": "BE-caching-server"
+        }
+    },{
+        "data": {
+            "id": "BE-caching-server-memcached",
+            "label": "Memcached"
+        }
+    },{
+        "data": {
+            "id": "BE-caching-server->BE-caching-server-memcached",
+            "source": "BE-caching-server-memcached",
+            "target": "BE-caching-server"
+        }
+    },{
+        "data": {
+            "id": "BE-caching-client",
+            "label": "client side"
+        }
+    },{
+        "data": {
+            "id": "BE-caching->BE-caching-client",
+            "source": "BE-caching-client",
+            "target": "BE-caching"
+        }
+    },
+
+    {
+        "data": {
+            "id": "BE-websecurity",
+            "label": "웹 보안 지식"
+        }
+    },
+    {    "data": {
+            "id": "BE->BE-websecurity",
+            "source": "BE-websecurity",
+            "target": "BE"
+        }
+    },{
+        "data": {
+            "id": "BE-websecurity-sha",
+            "label": "SHA"
+        }
+    },{
+        "data": {
+            "id": "BE-websecurity->BE-websecurity-sha",
+            "source": "BE-websecurity-sha",
+            "target": "BE-websecurity"
+        }
+    },{
+        "data": {
+            "id": "BE-websecurity-owasp",
+            "label": "OWASP"
+        }
+    },{
+        "data": {
+            "id": "BE-websecurity->BE-websecurity-owasp",
+            "source": "BE-websecurity-owasp",
+            "target": "BE-websecurity"
+        }
+    },{
+        "data": {
+            "id": "BE-websecurity-ssl",
+            "label": "SSL"
+        }
+    },{
+        "data": {
+            "id": "BE-websecurity->BE-websecurity-ssl",
+            "source": "BE-websecurity-ssl",
+            "target": "BE-websecurity"
+        }
+    },{
+        "data": {
+            "id": "BE-websecurity-tls",
+            "label": "TLS"
+        }
+    },{
+        "data": {
+            "id": "BE-websecurity->BE-websecurity-tls",
+            "source": "BE-websecurity-tls",
+            "target": "BE-websecurity"
+        }
+    },{
+        "data": {
+            "id": "BE-websecurity-cors",
+            "label": "CORS"
+        }
+    },{
+        "data": {
+            "id": "BE-websecurity->BE-websecurity-cors",
+            "source": "BE-websecurity-cors",
+            "target": "BE-websecurity"
+        }
+    },{
+        "data": {
+            "id": "BE-websecurity-bcrypt",
+            "label": "bcrypt"
+        }
+    },{
+        "data": {
+            "id": "BE-websecurity->BE-websecurity-bcrypt",
+            "source": "BE-websecurity-bcrypt",
+            "target": "BE-websecurity"
+        }
+    },{
+        "data": {
+            "id": "BE-websecurity-scrypt",
+            "label": "scrypt"
+        }
+    },{
+        "data": {
+            "id": "BE-websecurity->BE-websecurity-scrypt",
+            "source": "BE-websecurity-scrypt",
+            "target": "BE-websecurity"
+        }
+    },
+
+    {
+        "data": {
+            "id": "BE-deploy",
+            "label": "배포 관련 지식"
+        }
+    },{
+        "data": {
+            "id": "BE->BE-deploy",
+            "source": "BE-deploy",
+            "target": "BE"
+        }
+    },{
+        "data": {
+            "id": "BE-deploy-cicd",
+            "label": "CI/CD 파이프라인"
+        }
+    },{
+        "data": {
+            "id": "BE-deploy->BE-deploy-cicd",
+            "source": "BE-deploy-cicd",
+            "target": "BE-deploy"
+        }
+    },{
+        "data": {
+            "id": "BE-deploy-cloud",
+            "label": "클라우드 서비스"
+        }
+    },{
+        "data": {
+            "id": "BE-deploy->BE-deploy-cloud",
+            "source": "BE-deploy-cloud",
+            "target": "BE-deploy"
+        }
+    },{
+        "data": {
+            "id": "BE-deploy-cloud-aws",
+            "label": "AWS"
+        }
+    },{
+        "data": {
+            "id": "BE-deploy->BE-deploy-cloud-aws",
+            "source": "BE-deploy-cloud-aws",
+            "target": "BE-deploy-cloud"
+        }
+    },{
+        "data": {
+            "id": "BE-deploy-cloud-azure",
+            "label": "Azure"
+        }
+    },{
+        "data": {
+            "id": "BE-deploy->BE-deploy-cloud-azure",
+            "source": "BE-deploy-cloud-azure",
+            "target": "BE-deploy-cloud"
+        }
+    },{
+        "data": {
+            "id": "BE-deploy-docker",
+            "label": "Docker"
+        }
+    },{
+        "data": {
+            "id": "BE-deploy->BE-deploy-docker",
+            "source": "BE-deploy-docker",
+            "target": "BE-deploy"
+        }
+    },
+
+    
+    {
+        "data": {
+            "id": "FE->BASIC-internet",
+            "source": "BASIC-internet",
+            "target": "FE"
+        }
+    },{
+        "data": {
+            "id": "FE->BASIC-FE",
+            "source": "BASIC-FE",
+            "target": "FE"
+        }
+    },{
+        "data": {
+            "id": "FE->BASIC-env",
+            "source": "BASIC-env",
+            "target": "FE"
+        }
+    },{
+        "data": {
+            "id": "FE->version",
+            "source": "version",
+            "target": "FE"
+        }
+    },
+
+    {
+        "data": {
+            "id": "FE-framework",
+            "label": "Framework"
+        }
+    },{
+        "data": {
+            "id": "FE->FE-framework",
+            "source": "FE-framework",
+            "target": "FE"
+        }
+    },{
+        "data": {
+            "id": "FE-framework-react",
+            "label": "React.js"
+        }
+    },{
+        "data": {
+            "id": "FE-framework->FE-framework-react",
+            "source": "FE-framework-react",
+            "target": "FE-framework"
+        }
+    },{
+        "data": {
+            "id": "FE-framework-react-redux",
+            "label": "Redux"
+        }
+    },{
+        "data": {
+            "id": "FE-framework-react->FE-framework-react-redux",
+            "source": "FE-framework-react-redux",
+            "target": "FE-framework-react"
+        }
+    },{
+        "data": {
+            "id": "FE-framework-vue",
+            "label": "Vue.js"
+        }
+    },{
+        "data": {
+            "id": "FE-framework->FE-framework-vue",
+            "source": "FE-framework-vue",
+            "target": "FE-framework"
+        }
+    },{
+        "data": {
+            "id": "FE-framework-vue-vuex",
+            "label": "Vuex"
+        }
+    },{
+        "data": {
+            "id": "FE-framework-vue->FE-framework-vue-vuex",
+            "source": "FE-framework-vue-vuex",
+            "target": "FE-framework-vue"
+        }
+    },{
+        "data": {
+            "id": "FE-framework-angular",
+            "label": "Angular"
+        }
+    },{
+        "data": {
+            "id": "FE-framework->FE-framework-angular",
+            "source": "FE-framework-angular",
+            "target": "FE-framework"
+        }
+    },
+
+    {
+        "data": {
+            "id": "FE-websecurity",
+            "label": "웹 보안 지식"
+        }
+    },{
+        "data": {
+            "id": "FE->FE-websecurity",
+            "source": "FE-websecurity",
+            "target": "FE"
+        }
+    },{
+        "data": {
+            "id": "FE-websecurity-https",
+            "label": "HTTPS"
+        }
+    },{
+        "data": {
+            "id": "FE-websecurity->FE-websecurity-https",
+            "source": "FE-websecurity-https",
+            "target": "FE-websecurity"
+        }
+    },{
+        "data": {
+            "id": "FE-websecurity-owasp",
+            "label": "OWASP"
+        }
+    },{
+        "data": {
+            "id": "FE-websecurity->FE-websecurity-owasp",
+            "source": "FE-websecurity-owasp",
+            "target": "FE-websecurity"
+        }
+    },{
+        "data": {
+            "id": "FE-websecurity-cors",
+            "label": "CORS"
+        }
+    },{
+        "data": {
+            "id": "FE-websecurity->FE-websecurity-cors",
+            "source": "FE-websecurity-cors",
+            "target": "FE-websecurity"
+        }
+    },
+
+    {
+        "data": {
+            "id": "FE-css",
+            "label": "CSS 구조와 전처리기"
+        }
+    },{
+        "data": {
+            "id": "FE->FE-css",
+            "source": "FE-css",
+            "target": "FE"
+        }
+    },{
+        "data": {
+            "id": "FE-css-arch",
+            "label": "CSS 구조"
+        }
+    },{
+        "data": {
+            "id": "FE-css->FE-css-arch",
+            "source": "FE-css-arch",
+            "target": "FE-css"
+        }
+    },{
+        "data": {
+            "id": "FE-css-arch-bem",
+            "label": "BEM"
+        }
+    },{
+        "data": {
+            "id": "FE-css-arch->FE-css-arch-bem",
+            "source": "FE-css-arch-bem",
+            "target": "FE-css-arch"
+        }
+    },{
+        "data": {
+            "id": "FE-css-pre",
+            "label": "CSS 전처리기"
+        }
+    },{
+        "data": {
+            "id": "FE-css->FE-css-pre",
+            "source": "FE-css-pre",
+            "target": "FE-css"
+        }
+    },{
+        "data": {
+            "id": "FE-css-pre-sass",
+            "label": "Sass"
+        }
+    },{
+        "data": {
+            "id": "FE-css-pre->FE-css-pre-sass",
+            "source": "FE-css-pre-sass",
+            "target": "FE-css-pre"
+        }
+    },
+    
+    {
+        "data": {
+            "id": "FE-serverside",
+            "label": "Server Side Rendering"
+        }
+    },{
+        "data": {
+            "id": "FE->FE-serverside",
+            "source": "FE-serverside",
+            "target": "FE"
+        }
+    },{
+        "data": {
+            "id": "FE-serverside-next",
+            "label": "Next.js"
+        }
+    },{
+        "data": {
+            "id": "FE-serverside->FE-serverside-next",
+            "source": "FE-serverside-next",
+            "target": "FE-serverside"
+        }
+    },{
+        "data": {
+            "id": "FE-serverside-uni",
+            "label": "universal"
+        }
+    },{
+        "data": {
+            "id": "FE-serverside->FE-serverside-uni",
+            "source": "FE-serverside-uni",
+            "target": "FE-serverside"
+        }
+    },{
+        "data": {
+            "id": "FE-serverside-nuxt",
+            "label": "Nuxt.js"
+        }
+    },{
+        "data": {
+            "id": "FE-serverside->FE-serverside-nuxt",
+            "source": "FE-serverside-nuxt",
+            "target": "FE-serverside"
+        }
+    },
+
+    {
+        "data": {
+            "id": "FE-mobile",
+            "label": "모바일 어플리케이션"
+        }
+    },
+    {
+        "data": {
+            "id": "FE->FE-mobile",
+            "source": "FE-mobile",
+            "target": "FE"
+        }
+    },{
+        "data": {
+            "id": "FE-mobile-react",
+            "label": "React Native"
+        }
+    },{
+        "data": {
+            "id": "FE-mobile->FE-mobile-react",
+            "source": "FE-mobile-react",
+            "target": "FE-mobile"
+        }
+    },{
+        "data": {
+            "id": "FE-mobile-native",
+            "label": "NativeScript"
+        }
+    },{
+        "data": {
+            "id": "FE-mobile->FE-mobile-native",
+            "source": "FE-mobile-native",
+            "target": "FE-mobile"
+        }
+    },{
+        "data": {
+            "id": "FE-mobile-flutter",
+            "label": "Flutter"
+        }
+    },{
+        "data": {
+            "id": "FE-mobile->FE-mobile-flutter",
+            "source": "FE-mobile-flutter",
+            "target": "FE-mobile"
+        }
+    },
+
+    {
+        "data": {
+            "id": "SE->BASIC-internet",
+            "source": "BASIC-internet",
+            "target": "SE"
+        }
+    },{
+        "data": {
+            "id": "SE->BASIC-env",
+            "source": "BASIC-env",
+            "target": "SE"
+        }
+    },{
+        "data": {
+            "id": "SE->FE-websecurity",
+            "source": "FE-websecurity",
+            "target": "SE"
+        }
+    },{
+        "data": {
+            "id": "SE->db",
+            "source": "db",
+            "target": "SE"
+        }
+    },
+
+    {
+        "data": {
+            "id": "SE-lang",
+            "label": "프로그래밍 언어"
+        }
+    },{
+        "data": {
+            "id": "SE->SE-lang",
+            "source": "SE-lang",
+            "target": "SE"
+        }
+    },{
+        "data": {
+            "id": "SE-lang-c",
+            "label": "C/C++"
+        }
+    },{
+        "data": {
+            "id": "SE-lang->SE-lang-c",
+            "source": "SE-lang-c",
+            "target": "SE-lang"
+        }
+    },{
+        "data": {
+            "id": "SE-lang-c-assembly",
+            "label": "어셈블리어"
+        }
+    },{
+        "data": {
+            "id": "SE-lang-c->SE-lang-c-assembly",
+            "source": "SE-lang-c-assembly",
+            "target": "SE-lang-c"
+        }
+    },{
+        "data": {
+            "id": "SE-lang-c-machine",
+            "label": "기계어"
+        }
+    },{
+        "data": {
+            "id": "SE-lang-c->SE-lang-c-machine",
+            "source": "SE-lang-c-machine",
+            "target": "SE-lang-c"
+        }
+    },{
+        "data": {
+            "id": "SE-lang-python",
+            "label": "Python"
+        }
+    },{
+        "data": {
+            "id": "SE-lang->SE-lang-python",
+            "source": "SE-lang-python",
+            "target": "SE-lang"
+        }
+    },{
+        "data": {
+            "id": "SE-lang-js",
+            "label": "javascript"
+        }
+    },{
+        "data": {
+            "id": "SE-lang->SE-lang-js",
+            "source": "SE-lang-js",
+            "target": "SE-lang"
+        }
+    },{
+        "data": {
+            "id": "SE-lang-swift",
+            "label": "Swift"
+        }
+    },{
+        "data": {
+            "id": "SE-lang->SE-lang-swift",
+            "source": "SE-lang-swift",
+            "target": "SE-lang"
+        }
+    },
+
+    {
+        "data": {
+            "id": "SE-network",
+            "label": "네트워크"
+        }
+    },{
+        "data": {
+            "id": "SE->SE-network",
+            "source": "SE-network",
+            "target": "SE"
+        }
+    },{
+        "data": {
+            "id": "SE-network-ccna",
+            "label": "CCNA"
+        }
+    },{
+        "data": {
+            "id": "SE-network->SE-network-ccna",
+            "source": "SE-network-ccna",
+            "target": "SE-network"
+        }
+    },{
+        "data": {
+            "id": "SE-network-ccnp",
+            "label": "CCNP"
+        }
+    },{
+        "data": {
+            "id": "SE-network->SE-network-ccnp",
+            "source": "SE-network-ccnp",
+            "target": "SE-network"
+        }
+    },{
+        "data": {
+            "id": "SE-network-forensic",
+            "label": "포렌식"
+        }
+    },{
+        "data": {
+            "id": "SE-network->SE-network-forensic",
+            "source": "SE-network-forensic",
+            "target": "SE-network"
+        }
+    },
+
+    {
+        "data": {
+            "id": "SE-cyto",
+            "label": "암호학"
+        }
+    },{
+        "data": {
+            "id": "SE->SE-cyto",
+            "source": "SE-cyto",
+            "target": "SE"
+        }
+    },{
+        "data": {
+            "id": "SE-cyto-des",
+            "label": "DES"
+        }
+    },{
+        "data": {
+            "id": "SE-cyto->SE-cyto-des",
+            "source": "SE-cyto-des",
+            "target": "SE-cyto"
+        }
+    },{
+        "data": {
+            "id": "SE-cyto-des-tri",
+            "label": "triple DES"
+        }
+    },{
+        "data": {
+            "id": "SE-cyto-des->SE-cyto-des-tri",
+            "source": "SE-cyto-des-tri",
+            "target": "SE-cyto-des"
+        }
+    },{
+        "data": {
+            "id": "SE-cyto-rsa",
+            "label": "RSA"
+        }
+    },{
+        "data": {
+            "id": "SE-cyto->SE-cyto-rsa",
+            "source": "SE-cyto-rsa",
+            "target": "SE-cyto"
+        }
+    },
+
+    {
+        "data": {
+            "id": "SE-hacking",
+            "label": "해킹"
+        }
+    },{
+        "data": {
+            "id": "SE->SE-hacking",
+            "source": "SE-hacking",
+            "target": "SE"
+        }
+    },{
+        "data": {
+            "id": "SE-hacking-web",
+            "label": "웹 해킹"
+        }
+    },{
+        "data": {
+            "id": "SE-hacking->SE-hacking-web",
+            "source": "SE-hacking-web",
+            "target": "SE-hacking"
+        }
+    },{
+        "data": {
+            "id": "SE-hacking-web-html",
+            "label": "HTML"
+        }
+    },{
+        "data": {
+            "id": "SE-hacking-web->SE-hacking-web-html",
+            "source": "SE-hacking-web-html",
+            "target": "SE-hacking-web"
+        }
+    },{
+        "data": {
+            "id": "SE-hacking-web-js",
+            "label": "javascript"
+        }
+    },{
+        "data": {
+            "id": "SE-hacking-web->SE-hacking-web-js",
+            "source": "SE-hacking-web-js",
+            "target": "SE-hacking-web"
+        }
+    },{
+        "data": {
+            "id": "SE-hacking-web-php",
+            "label": "PHP"
+        }
+    },{
+        "data": {
+            "id": "SE-hacking-web->SE-hacking-web-php",
+            "source": "SE-hacking-web-php",
+            "target": "SE-hacking-web"
+        }
+    },{
+        "data": {
+            "id": "SE-hacking-web-jsp",
+            "label": "JSP"
+        }
+    },{
+        "data": {
+            "id": "SE-hacking-web->SE-hacking-web-jsp",
+            "source": "SE-hacking-web-jsp",
+            "target": "SE-hacking-web"
+        }
+    },{
+        "data": {
+            "id": "SE-hacking-web-nodejs",
+            "label": "Node.js"
+        }
+    },{
+        "data": {
+            "id": "SE-hacking-web->SE-hacking-web-nodejs",
+            "source": "SE-hacking-web-nodejs",
+            "target": "SE-hacking-web"
+        }
+    },{
+        "data": {
+            "id": "SE-hacking-network",
+            "label": "네트워크 해킹"
+        }
+    },{
+        "data": {
+            "id": "SE-hacking->SE-hacking-network",
+            "source": "SE-hacking-network",
+            "target": "SE-hacking"
+        }
+    },{
+        "data": {
+            "id": "SE-hacking-network-socket",
+            "label": "Socket"
+        }
+    },{
+        "data": {
+            "id": "SE-hacking-network->SE-hacking-network-socket",
+            "source": "SE-hacking-network-socket",
+            "target": "SE-hacking-network"
+        }
+    },{
+        "data": {
+            "id": "SE-hacking-network-osi",
+            "label": "OSI 7계층"
+        }
+    },{
+        "data": {
+            "id": "SE-hacking-network->SE-hacking-network-osi",
+            "source": "SE-hacking-network-osi",
+            "target": "SE-hacking-network"
+        }
+    },{
+        "data": {
+            "id": "SE-hacking-network-spoofing",
+            "label": "ARP spoofing"
+        }
+    },{
+        "data": {
+            "id": "SE-hacking-network->SE-hacking-network-spoofing",
+            "source": "SE-hacking-network-spoofing",
+            "target": "SE-hacking-network"
+        }
+    },{
+        "data": {
+            "id": "SE-hacking-system",
+            "label": "시스템 해킹"
+        }
+    },{
+        "data": {
+            "id": "SE-hacking->SE-hacking-system",
+            "source": "SE-hacking-system",
+            "target": "SE-hacking"
+        }
+    },{
+        "data": {
+            "id": "SE-hacking-system-bof",
+            "label": "BOF"
+        }
+    },{
+        "data": {
+            "id": "SE-hacking-system->SE-hacking-system-bof",
+            "source": "SE-hacking-system-bof",
+            "target": "SE-hacking-system"
+        }
+    },{
+        "data": {
+            "id": "SE-hacking-system-fuzzing",
+            "label": "Fuzzing"
+        }
+    },{
+        "data": {
+            "id": "SE-hacking-system->SE-hacking-system-fuzzing",
+            "source": "SE-hacking-system-fuzzing",
+            "target": "SE-hacking-system"
+        }
+    },{
+        "data": {
+            "id": "SE-hacking-system-reAssem",
+            "label": "역어셈블리어"
+        }
+    },{
+        "data": {
+            "id": "SE-hacking-system->SE-hacking-system-reAssem",
+            "source": "SE-hacking-system-reAssem",
+            "target": "SE-hacking-system"
+        }
+    },{
+        "data": {
+            "id": "SE-hacking-system-reAssem-ida",
+            "label": "IDA Pro"
+        }
+    },{
+        "data": {
+            "id": "SE-hacking-system-reAssem->SE-hacking-system-reAssem-ida",
+            "source": "SE-hacking-system-reAssem-ida",
+            "target": "SE-hacking-system-reAssem"
+        }
+    },{
+        "data": {
+            "id": "SE-hacking-system-reAssem-hidra",
+            "label": "hidra"
+        }
+    },{
+        "data": {
+            "id": "SE-hacking-system-reAssem->SE-hacking-system-reAssem-hidra",
+            "source": "SE-hacking-system-reAssem-hidra",
+            "target": "SE-hacking-system-reAssem"
+        }
+    },
+
+    {
+        "data": {
+            "id": "DS->BASIC-internet",
+            "source": "BASIC-internet",
+            "target": "DS"
+        }
+    },{
+        "data": {
+            "id": "DS->BASIC-env",
+            "source": "BASIC-env",
+            "target": "DS"
+        }
+    },{
+        "data": {
+            "id": "DS->db",
+            "source": "db",
+            "target": "DS"
+        }
+    },
+    {
+        "data": {
+            "id": "DS-lang",
+            "label": "프로그래밍 언어 공부"
+        }
+    },{
+        "data": {
+            "id": "DS->DS-lang",
+            "source": "DS-lang",
+            "target": "DS"
+        }
+    },{
+        "data": {
+            "id": "DS-lang-python",
+            "label": "Python"
+        }
+    },{
+        "data": {
+            "id": "DS-lang->DS-lang-python",
+            "source": "DS-lang-python",
+            "target": "DS-lang"
+        }
+    },
+    {
+        "data": {
+            "id": "DS-data",
+            "label": "데이터 가공,분석,시각화"
+        }
+    },{
+        "data": {
+            "id": "DS->DS-data",
+            "source": "DS-data",
+            "target": "DS"
+        }
+    },{
+        "data": {
+            "id": "DS-data-extractProcessing",
+            "label": "데이터 추출 및 처리"
+        }
+    },{
+        "data": {
+            "id": "DS-data->DS-data-extractProcessing",
+            "source": "DS-data-extractProcessing",
+            "target": "DS-data"
+        }
+    },{
+        "data": {
+            "id": "DS-data-extractProcessing-collect",
+            "label": "데이터 수집"
+        }
+    },{
+        "data": {
+            "id": "DS-data-extractProcessing->DS-data-extractProcessing-collect",
+            "source": "DS-data-extractProcessing-collect",
+            "target": "DS-data-extractProcessing"
+        }
+    },{
+        "data": {
+            "id": "DS-data-extractProcessing-save",
+            "label": "데이터 저장방법"
+        }
+    },{
+        "data": {
+            "id": "DS-data-extractProcessing->DS-data-extractProcessing-save",
+            "source": "DS-data-extractProcessing-save",
+            "target": "DS-data-extractProcessing"
+        }
+    },{
+        "data": {
+            "id": "DS-data-extractProcessing-library",
+            "label": "라이브러리 사용"
+        }
+    },{
+        "data": {
+            "id": "DS-data-extractProcessing->DS-data-extractProcessing-library",
+            "source": "DS-data-extractProcessing-library",
+            "target": "DS-data-extractProcessing"
+        }
+    }
+    ,{
+        "data": {
+            "id": "DS-data-analysis",
+            "label": "데이터 분석"
+        }
+    },{
+        "data": {
+            "id": "DS-data->DS-data-analysis",
+            "source": "DS-data-analysis",
+            "target": "DS-data"
+        }
+    },{
+        "data": {
+            "id": "DS-data-visual",
+            "label": "데이터 시각화"
+        }
+    },{
+        "data": {
+            "id": "DS-data->DS-data-visual",
+            "source": "DS-data-visual",
+            "target": "DS-data"
+        }
+    },{
+        "data": {
+            "id": "DS-data-visual->DS-data-extractProcessing-library",
+            "source": "DS-data-extractProcessing-library",
+            "target": "DS-data-visual"
+        }
+    },
+    {
+        "data": {
+            "id": "DS-cloud",
+            "label": "클라우드 서비스"
+        }
+    },{
+        "data": {
+            "id": "DS->DS-cloud",
+            "source": "DS-cloud",
+            "target": "DS"
+        }
+    },{
+        "data": {
+            "id": "DS-cloud-aws",
+            "label": "AWS"
+        }
+    },{
+        "data": {
+            "id": "DS-cloud->DS-cloud-aws",
+            "source": "DS-cloud-aws",
+            "target": "DS-cloud"
+        }
+    },{
+        "data": {
+            "id": "DS-cloud-azure",
+            "label": "Azure"
+        }
+    },{
+        "data": {
+            "id": "DS-cloud->DS-cloud-azure",
+            "source": "DS-cloud-azure",
+            "target": "DS-cloud"
+        }
+    },
+    {
+        "data": {
+            "id": "DS-math",
+            "label": "응용통계 및 수학"
+        }
+    },{
+        "data": {
+            "id": "DS->DS-math",
+            "source": "DS-math",
+            "target": "DS"
+        }
+    },{
+        "data": {
+            "id": "DS-math-statistics",
+            "label": "통계학"
+        }
+    },{
+        "data": {
+            "id": "DS-math->DS-math-statistics",
+            "source": "DS-math-statistics",
+            "target": "DS-math"
+        }
+    },{
+        "data": {
+            "id": "DS-math-statistics-infer",
+            "label": "추론통계"
+        }
+    },{
+        "data": {
+            "id": "DS-math-statistics->DS-math-statistics-infer",
+            "source": "DS-math-statistics-infer",
+            "target": "DS-math-statistics"
+        }
+    },{
+        "data": {
+            "id": "DS-math-statistics-basic",
+            "label": "기초통계"
+        }
+    },{
+        "data": {
+            "id": "DS-math-statistics->DS-math-statistics-basic",
+            "source": "DS-math-statistics-basic",
+            "target": "DS-math-statistics"
+        }
+    },{
+        "data": {
+            "id": "DS-math-statistics-calculus",
+            "label": "미적분"
+        }
+    },{
+        "data": {
+            "id": "DS-math-statistics->DS-math-statistics-calculus",
+            "source": "DS-math-statistics-calculus",
+            "target": "DS-math-statistics"
+        }
+    },
+    {
+        "data": {
+            "id": "DS-learning",
+            "label": "머신러닝"
+        }
+    },{
+        "data": {
+            "id": "DS->DS-learning",
+            "source": "DS-learning",
+            "target": "DS"
+        }
+    },{
+        "data": {
+            "id": "DS-learning-supervied",
+            "label": "지도학습"
+        }
+    },{
+        "data": {
+            "id": "DS-learning->DS-learning-supervied",
+            "source": "DS-learning-supervied",
+            "target": "DS-learning"
+        }
+    },{
+        "data": {
+            "id": "DS-learning-supervied-regression",
+            "label": "회귀분석"
+        }
+    },{
+        "data": {
+            "id": "DS-learning-supervied->DS-learning-supervied-regression",
+            "source": "DS-learning-supervied-regression",
+            "target": "DS-learning-supervied"
+        }
+    },{
+        "data": {
+            "id": "DS-learning-supervied-classify",
+            "label": "분류"
+        }
+    },{
+        "data": {
+            "id": "DS-learning-supervied->DS-learning-supervied-classify",
+            "source": "DS-learning-supervied-classify",
+            "target": "DS-learning-supervied"
+        }
+    },{
+        "data": {
+            "id": "DS-learning-supervied-tree",
+            "label": "트리 및 앙상블 모델"
+        }
+    },{
+        "data": {
+            "id": "DS-learning-supervied->DS-learning-supervied-tree",
+            "source": "DS-learning-supervied-tree",
+            "target": "DS-learning-supervied"
+        }
+    },{
+        "data": {
+            "id": "DS-learning-unsupervied",
+            "label": "비지도학습"
+        }
+    },{
+        "data": {
+            "id": "DS-learning->DS-learning-unsupervied",
+            "source": "DS-learning-unsupervied",
+            "target": "DS-learning"
+        }
+    },{
+        "data": {
+            "id": "DS-learning-unsupervied-clustering",
+            "label": "클러스터링"
+        }
+    },{
+        "data": {
+            "id": "DS-learning-unsupervied->DS-learning-unsupervied-clustering",
+            "source": "DS-learning-unsupervied-clustering",
+            "target": "DS-learning-unsupervied"
+        }
+    },{
+        "data": {
+            "id": "DS-learning-unsupervied-shrink",
+            "label": "차원축소"
+        }
+    },{
+        "data": {
+            "id": "DS-learning-unsupervied->DS-learning-unsupervied-shrink",
+            "source": "DS-learning-unsupervied-shrink",
+            "target": "DS-learning-unsupervied"
+        }
+    },{
+        "data": {
+            "id": "DS-learning-unsupervied-pca",
+            "label": "PCA"
+        }
+    },{
+        "data": {
+            "id": "DS-learning-unsupervied->DS-learning-unsupervied-pca",
+            "source": "DS-learning-unsupervied-pca",
+            "target": "DS-learning-unsupervied"
+        }
+    },{
+        "data": {
+            "id": "DS-learning-reinforce",
+            "label": "강화학습"
+        }
+    },{
+        "data": {
+            "id": "DS-learning->DS-learning-reinforce",
+            "source": "DS-learning-reinforce",
+            "target": "DS-learning"
+        }
+    },{
+        "data": {
+            "id": "DS-learning-reinforce-tf",
+            "label": "TF-Agents 라이브러리"
+        }
+    },{
+        "data": {
+            "id": "DS-learning-reinforce->DS-learning-reinforce-tf",
+            "source": "DS-learning-reinforce-tf",
+            "target": "DS-learning-reinforce"
+        }
+    }
+]
