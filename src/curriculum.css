@@ -261,7 +261,7 @@
     height: 100vh;
     top: 0;
     left: 0;
-    background-color: rgba(189, 189, 189, 0.324);
+    background-color: rgba(189, 189, 189, 0.01);
     z-index: 3000;
 }
 .modal{
