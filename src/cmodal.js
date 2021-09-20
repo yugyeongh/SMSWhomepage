@@ -1,27 +1,23 @@
-import { createPortal } from "react-dom";
+import React from 'react';
 
-function Modal(props) {
-  const { message } = props;
-  return createPortal(
+const MyModal = ({ onClose, message }) => {
+    console.log(message)
+  return (
     <div className="Cmodal_chang">
         <div className="modal">
             <div className="modal_bar"> 
-                <div className="modal_buttons">
+                <div className="modal_buttons" onClick={onClose}>
                     <div className="button red"> </div>
                     <div className="button yellow"></div>
                     <div className="button green"></div>
                 </div>
             </div>
             <div className="contents">
-                <br/> 뀨
+                <br/>{message}
             </div>
         </div>
     </div>
-    ,
-    document.getElementById("modal")
   );
-}
+};
 
-export default Modal;
-
-
+export default MyModal;
