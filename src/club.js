@@ -18,18 +18,19 @@ const Club = () => {
                         <label htmlFor="intro"></label>
                     </section>
 
-                    <input type="radio" name="tab" id="siss"/>
-                    <section className="siss">
-                        <h1 className="sissH">SISS</h1>
-                        <div className="content" >
-                        <div className="content-bold">🤖 소프트웨어학부 정보보안 동아리입니다.</div>
-                        <br/> 시스템/웹 해킹과 정보보호, 해킹 공격과 대응책 등 
-                        <br/> 정보보안 기술에 대해 함께 공부하고 실습합니다.
-                        <br/> 대내활동에는 c mentoring, linux mentoring, web basic이 있으며
-                        <br/> 대외활동으로는 Inc0gnito, Power of XX, Hacking Camp, 
-                        <br/> 타대 보안동아리와의 연합 스터디및 세미나를 진행합니다.
+                    <input type="radio" name="tab" id="apps"/>
+                    <section className="apps">
+                        <h1>APPS</h1>
+                        <div className="content appsC" >
+                        <div className="content-bold">🎮 소프트웨어학부의 게임 개발동아리 입니다.</div>
+                        <br/> 스터디를 통해 개발 관련 지식을 익히고, 
+                        <br/> 이를 바탕으로 프로젝트를 진행하며 협업 경험을 쌓을 수 있습니다.
+                        <br/> 게임개발부터 앱, 웹까지 스터디를 진행하며
+                        <br/> 전시회에 프로젝트 작품을 전시할 수 있는 경험도 체험할 수 있습니다.
+                        <br/> 2학기에는 다양한 학년이 모여 진행하는 사이드 프로젝트를 진행합니다.
+                        <br/> 신입부원과 기존 부원과의 멘토-멘티제 운영합니다.
                         </div>
-                        <label htmlFor="siss"></label>
+                        <label htmlFor="apps"></label>
                     </section>
 
                     <input type="radio" name="tab" id="algos"/>
@@ -61,19 +62,18 @@ const Club = () => {
                         <label htmlFor="forza"></label>
                     </section>
 
-                    <input type="radio" name="tab" id="apps"/>
-                    <section className="apps">
-                        <h1>APPS</h1>
-                        <div className="content appsC" >
-                        <div className="content-bold">🎮 소프트웨어학부의 게임 개발동아리 입니다.</div>
-                        <br/> 스터디를 통해 개발 관련 지식을 익히고, 
-                        <br/> 이를 바탕으로 프로젝트를 진행하며 협업 경험을 쌓을 수 있습니다.
-                        <br/> 게임개발부터 앱, 웹까지 스터디를 진행하며
-                        <br/> 전시회에 프로젝트 작품을 전시할 수 있는 경험도 체험할 수 있습니다.
-                        <br/> 2학기에는 다양한 학년이 모여 진행하는 사이드 프로젝트를 진행합니다.
-                        <br/> 신입부원과 기존 부원과의 멘토-멘티제 운영합니다.
+                    <input type="radio" name="tab" id="siss"/>
+                    <section className="siss">
+                        <h1 className="sissH">SISS</h1>
+                        <div className="content" >
+                        <div className="content-bold">🤖 소프트웨어학부 정보보안 동아리입니다.</div>
+                        <br/> 시스템/웹 해킹과 정보보호, 해킹 공격과 대응책 등 
+                        <br/> 정보보안 기술에 대해 함께 공부하고 실습합니다.
+                        <br/> 대내활동에는 c mentoring, linux mentoring, web basic이 있으며
+                        <br/> 대외활동으로는 Inc0gnito, Power of XX, Hacking Camp, 
+                        <br/> 타대 보안동아리와의 연합 스터디및 세미나를 진행합니다.
                         </div>
-                        <label htmlFor="apps"></label>
+                        <label htmlFor="siss"></label>
                     </section>
                     
                     <input type="radio" name="tab" id="solux"/>
