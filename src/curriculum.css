@@ -14,21 +14,19 @@
     position: relative;
     /* border: 1px solid black ; */
     top: 50px;
-    width: 89%;
+    width: 90%;
     height: 2800px;
-    left: 7%;
+    left: 5%;
     overflow: hidden;
 }
 /* 타이틀 */
 .title-text {
-    width: 150px;
     position: absolute;
     top: 60px;
-    left: 51%;
+    left: 50%;
     transform: translateX(-50%);
     color: #636363;
-    font-family: Roboto;
-    font-weight: Regular;
+    font-weight: 500;
     font-size: 36px;
 }
 
@@ -44,20 +42,20 @@
 }
 
 .cs-subject{
-    width: 35%;
+    width: 30%;
     height: 2500px;
     position: absolute;
     top: 100px;
-    left: 2%;
+    left: 10%;
     z-index: 1;
 }
 
 .sw-subject{
-    width: 35%;
+    width: 30%;
     height: 2500px;
     position: absolute;
     top: 100px;
-    left: 63%;
+    left: 60%;
     z-index: 1;
 }
 
@@ -82,12 +80,12 @@
 }
 .box-left{
     position:absolute;
-    left: 25%;
+    left: 30%;
     transform: translateX(-50%);  
 }
 .box-right{
     position:absolute;
-    left: 75%;
+    left: 70%;
     transform: translateX(-50%);
 }
 .box-back1 {background: rgba(250,250,250,1); color: black;}       
@@ -233,7 +231,7 @@
     opacity: 1;
     position: absolute;
     top: 9px;
-    left: -2%;
+    left: -2.5%;
     border: 1px solid rgba(113, 113, 113, 0.4);
 }
 .sw-line01 {
@@ -241,7 +239,7 @@
     opacity: 1;
     position: absolute;
     top: 9px;
-    left: 12%;
+    left: 12.5%;
     border: 1px solid rgba(113, 113, 113, 0.4);
 }
 .sw-line02 {
@@ -249,7 +247,7 @@
     opacity: 1;
     position: absolute;
     top: 9px;
-    left: 56%;
+    left: 56.5%;
     border: 1px solid rgba(113, 113, 113, 0.4);
 }
 

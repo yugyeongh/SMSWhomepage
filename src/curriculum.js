@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import MyModal from "./cmodal";
 import ModalPortal from './ModalPortal';
 import './curriculum.css';
+import './curriculumMobile.css';
 
 let modal=[];
 for (var i=0;i<45;i++){
