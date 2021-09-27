@@ -29,7 +29,7 @@ function Main() {
                     <h2>02</h2>
                     <h3>SMWU Engineer</h3>
                     <p>세상을 바꾸는 부드러운 힘</p>
-                    <a className="cardlink" href="#">Read More</a>
+                    <a className="cardlink" href="https://www.sookmyung.ac.kr/sookmyungkr/index.do" target="_blank" rel="noreferrer">Read More</a>
                 </div>
             </div>
             <div className="card">
