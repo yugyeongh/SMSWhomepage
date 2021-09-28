@@ -17,12 +17,12 @@ class RoadMap extends Component {
             // rank를 활용하기 위해 data만 입력한 cytoscape 객체입니다
             const pageRank = cy_for_rank.elements().pageRank();
             // elements들의 rank들입니다.
-            const nodeMaxSize = 50;
-            const nodeMinSize = 5;
-            const nodeActiveSize = 20;
-            const fontMaxSize = 10;
-            const fontMinSize =8;
-            const fontActiveSize = 10;
+            const nodeMaxSize = 80;
+            const nodeMinSize = 10;
+            const nodeActiveSize = 40;
+            const fontMaxSize = 25;
+            const fontMinSize = 10;
+            const fontActiveSize = 20;
             // node & font 크기 값
     
             const edgeWidth = '2px';
@@ -32,9 +32,9 @@ class RoadMap extends Component {
             // edge & arrow 크기값
     
             const dimColor = '#dfe4ea';
-            const edgeColor = '#ced6e0';
-            const nodeColor = '#57606f';
-            const nodeActiveColor = '#0367A6';
+            const edgeColor = '#ced6e0'; // mouseover 전 edge 색
+            const nodeColor = '#57606f'; // mouseover 전 node 색
+            const nodeActiveColor = '#0367A6'; // mouseover 후 node 색
     
             const successorColor = '#023859';
             // 상위 node & edge color
