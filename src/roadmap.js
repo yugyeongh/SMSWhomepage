@@ -192,9 +192,9 @@ class RoadMap extends Component {
  
     render() {
         return (
-            <>
-            <div id="cy"></div>
-            </>
+            <div className="container2">
+                <div id="cy"></div>
+            </div>
         );
     }
     

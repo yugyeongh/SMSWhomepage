@@ -7,7 +7,7 @@ function PfIntro() {
         fontSize: "8px"
     }
     return (
-        <>
+        <div className="container2">
             <div className="inner">
                 <div align="center" className="main__banner">학과소개</div>
                 <ul className="classTab">
@@ -213,7 +213,7 @@ function PfIntro() {
                     <li>DEPARTMENT | Apps of SMWU</li>
                 </ul>
             </footer>
-        </>
+        </div>
     );
 }
 

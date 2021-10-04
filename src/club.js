@@ -5,7 +5,7 @@ import './clubMobile.css';
 const Club = () => {
     return(
         <>
-        <div className="clubCont">
+        <div className="clubCont container2">
             <form>
                 <input type="radio" name="tab" id="menu"/>
                 <div className="container">
