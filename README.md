@@ -1,7 +1,7 @@
 # 학과소개 홈페이지
 
-소프트웨어학부의 전반적인 소개를 담으 페이지 제작
-http://www.smwusoftware.com
+소프트웨어학부의 전반적인 소개를 담으 페이지 제작<br>
+http://www.smwusoftware.com<br>
 http://3.36.222.118:3000/
 
 ### 📍프로젝트 개요
