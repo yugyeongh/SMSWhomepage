@@ -9,7 +9,7 @@
 ### 📍컴송즈 소개
 <pre><code>
 1. [윤다빈](https://github.com/yundabin0608)
-2. [정제인]()
+2. [정제인](https://www.acmicpc.net/problem/3584)
 3. [현유경](https://github.com/yugyeongh)
 </code></pre>
 
