@@ -126,7 +126,7 @@ function PfIntro() {
                         <img src={require("../src/img/김윤진.jpg").default} alt="profile" />
                         <h3>김윤진 교수</h3>
                         <p>jshim@sm.ac.kr</p>
-                        <span className="majordiv"> VLSI/SystemOnChip설계, 임베디드시스템</span>
+                        <span className="majordiv"> VLSI/SystemOnChip설계<br/> 임베디드시스템</span>
                         <table><tbody><tr>
                             <td className="td1">새힘관 407</td>
                             <td className="td2">02) 710-9643</td></tr></tbody>
