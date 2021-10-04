@@ -6,6 +6,13 @@
 기존의 학과 소개 홈페이지의 디자인을 개선하고, 더 다양한 정보르 담고자 했다.<br>
 또한 학교 관련 사이트들을 한 군데에 모아 편리함을 한 스푼🥄 추가했다.
 
+### 📍컴송즈 소개
+<pre><code>
+1. [윤다빈](https://github.com/yundabin0608)
+2. [정제인]()
+3. [현유경](https://github.com/yugyeongh)
+</code></pre>
+
 ### 📍개발 언어 및 방법
 javascript를 사용해서 React로 개발✨
 
