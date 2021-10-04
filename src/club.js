@@ -13,6 +13,7 @@ const Club = () => {
                     <section className="intro">
                         <h1>동아리소개</h1>
                         <div className="content">
+                        <br/>
                         X를 눌러 뒤로간 후 <br/> 숙명여자대학교 소프트웨어학부의 동아리들을 살펴보세요.
                         </div>
                         <label htmlFor="intro"></label>
