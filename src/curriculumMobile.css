@@ -48,9 +48,9 @@
     .line-circle02 { width: 16px; height: 16px; left: 45.9%;}
     .line-circle03 { width: 16px; height: 16px; left: 54%;}
   
-    .cs-line02 { top: 6px; left: -7.8%; }
-    .sw-line01 {  top: 7.5px; left: 12%;}
-    .sw-line02 {top: 6px; left: 56%;}
+    .cs-line02 { width:100px; top: 6px; left: 15%; }
+    .sw-line01 { width:100px;top: 7.5px; left: 12%;}
+    .sw-line02 { width:100px; top: 6px; left: 56%;}
 }
 @media screen and (max-width:1200px) and (min-width:900px){
     .title-text {
