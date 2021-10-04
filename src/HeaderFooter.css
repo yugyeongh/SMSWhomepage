@@ -1,3 +1,10 @@
+@media screen and (max-width:999px){
+    .homemenu{
+        display: none;
+    }
+}
+
+
 @font-face {
     font-family: 'GmarketSansLight';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
@@ -29,47 +36,27 @@
     color: rgb(26, 42, 97);
 }
 .homemenu{
-    display: flex;
+    display:block;
     position: relative;
     top: 30px;
     left: 60%;
     width: 40%;
+    height: 30px;
     float: left;
-    /* height: 30%; */
 }
-.introduction{
-    position: absolute;
-    left: 5%;
-    text-decoration: none;
-    color: black;
-}
-.introduction:hover{
-    text-shadow: 0px 4px 4px rgba(41, 38, 31, 0.3);
-}
-.curriculum{
-    position: absolute;
-    left: 32%;
-    text-decoration: none;
-    color: black;
-}
-.curriculum:hover{
-    text-shadow: 0px 4px 4px rgba(41, 38, 31, 0.3);
-}
-.roadmap{
-    position: absolute;
-    left: 57%;
-    text-decoration: none;
-    color: black;
-}
-.roadmap:hover{
-    text-shadow: 0px 4px 4px rgba(41, 38, 31, 0.3);
-}
+.introduction,
+.curriculum,
+.roadmap,
 .club{
-    position: absolute;
-    left: 80%;
+    position: flex;
     text-decoration: none;
     color: black;
+    margin: 1%;
 }
+
+.introduction:hover,
+.curriculum:hover,
+.roadmap:hover,
 .club:hover{
     text-shadow: 0px 4px 4px rgba(41, 38, 31, 0.3);
 }
