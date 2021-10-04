@@ -191,7 +191,7 @@ body::before {
         margin-top: 15px;
         box-sizing: border-box;
         position: relative;
-        width: 300px;
+        width: 80%;
         height: 150px;
         justify-content: center;
         border-top: 1px solid #0579fe4d;
