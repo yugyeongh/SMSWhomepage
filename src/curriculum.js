@@ -34,7 +34,7 @@ class Curriculum extends Component {
     };
     render(){
         return(
-            <>
+            <div className=" container2">
             <div className="sub_intro_page">
                 <div className="title-text">과목 소개</div>
 
@@ -479,7 +479,7 @@ class Curriculum extends Component {
                 <li>DEPARTMENT | Apps of SMWU</li>
             </ul>
             </footer>
-            </>
+            </div>
         );
     }
 }

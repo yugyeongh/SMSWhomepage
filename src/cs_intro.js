@@ -4,7 +4,7 @@ import './HeaderFooter.css'
 
 function CSIntro() {
     return (
-        <>
+        <div className="container2">
             <div class="inner">
                 <div align="center" class="main__banner">학과소개</div>
                 <ul class="classTab">
@@ -68,7 +68,7 @@ function CSIntro() {
                     <li>DEPARTMENT | Apps of SMWU</li>
                 </ul>
             </footer>
-        </>
+        </div>
     );
 }
 
