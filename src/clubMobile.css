@@ -1,0 +1,83 @@
+@media screen and (max-width:1200px) and (min-width:900px){
+
+      .container {
+        position: absolute;
+        left: 15%;
+        width: 70%;
+        min-width: 600px;
+        height: 80vh;
+        top: 130px;
+        transition: all 500ms;
+        transform-style: preserve-3d;
+      }
+    
+      .container section h1 { margin-top: 3px ; font-size: 40px; }
+      .container section .content{
+        margin-top: -110px ;
+        color: black;
+        font-size: 1.2em;
+        line-height: 1.5em;
+      }
+
+      .menu { top: 120px; right: 5vw;} 
+}
+
+@media screen and (max-width:900px) and (min-width:600px){
+    .container {
+        left: 10%;
+        width: 80%;
+        min-width: 500px;
+      }
+    
+      .container section { height: 50vh; }
+
+      input[type='radio']:checked + section {
+        z-index:1000;
+        height: 70vh;
+      }
+      input[type='radio']:checked + section>h1{
+        margin-top: -20px;
+        font-size: 30px;
+      }
+      
+      .container section h1 { margin-top: 7px ; font-size: 40px; }
+      .container section .content{
+        margin-top: -80px ;
+        color: black;
+        font-size: 1em;
+        line-height: 1.5em;
+      }
+
+      .menu { top: 140px; right: 4vw; width: 25px; height: 3px;} 
+      .menu::after { width: 25px; height: 3px; }
+}
+
+@media screen and (max-width:600px) and (min-width:300px){
+    .container {
+        left: 10%;
+        width: 80%;
+        min-width: 250px;
+      }
+    
+      .container section { height: 60vh; }
+
+      input[type='radio']:checked + section {
+        z-index:1000;
+        height: 70vh;
+      }
+      input[type='radio']:checked + section>h1{
+        margin-top: 0px;
+        font-size: 30px;
+      }
+      
+      .container section h1 { margin-top: 7px ; font-size: 40px; }
+      .container section .content{
+        margin-top: -80px ;
+        color: black;
+        font-size: 0.8em;
+        line-height: 1.3em;
+      }
+
+      .menu { top: 140px; right: 2vw; width: 25px; height: 3px;} 
+      .menu::after { width: 25px; height: 3px; }
+}
