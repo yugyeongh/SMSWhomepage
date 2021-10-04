@@ -27,6 +27,16 @@ body {
     width: 100%;
     background: #f9fafe;
 }
+body::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:  linear-gradient(rgb(162, 224, 248), rgb(45, 132, 247));
+    clip-path: circle(20% at 10% 10%);
+}
 
 .inner {
     padding-left: 20px;
