@@ -7,12 +7,10 @@
 또한 학교 관련 사이트들을 한 군데에 모아 편리함을 한 스푼🥄 추가했다.
 
 ### 📍컴송즈 소개
-<pre><code>
-1. [윤다빈](https://github.com/yundabin0608)
+1. [윤다빈(https://github.com/yundabin0608)
 2. [정제인](https://www.acmicpc.net/problem/3584)
 3. [현유경](https://github.com/yugyeongh)
- [3584번 가장 가까운 공통 조상](https://www.acmicpc.net/problem/3584) (트리,LCA)
-</code></pre>
+
 
 ### 📍개발 언어 및 방법
 javascript를 사용해서 React로 개발✨
