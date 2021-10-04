@@ -10,6 +10,16 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 100;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.otf) format('opentype');} 
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 300;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.otf) format('opentype');} 
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 400;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf) format('opentype');} 
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 500;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.otf) format('opentype');} 
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 700;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.otf) format('opentype');} 
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 900;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.otf) format('opentype');}
+
+
+
+
 body {
     font-family: 'GmarketSansLight';
     margin: 0;
@@ -19,15 +29,15 @@ body {
 }
 
 .inner {
-    /* padding-left: 20px;
-    padding-right: 20px; */
+    padding-left: 20px;
+    padding-right: 20px;
     max-width: 980px;
-    margin: 0 auto;
     margin-left: 20px;
     text-align: center;
     align-items: center;
     box-sizing: border-box;
     position: relative;
+    margin: 0 auto;
 }
 
 .inner .main__banner {
@@ -97,7 +107,7 @@ body {
     display: block;
     margin: 0 auto;
     padding-top: 13px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     font-size: 15px;
     font-weight: lighter;
     text-shadow: 0px 4px 4px rgba(0,0,0,0.25);
@@ -112,7 +122,7 @@ body {
 }
 
 .inner p {
-    padding: 10px;
+    padding: 6px;
     margin: auto;
     max-width: 780px;
 }
@@ -126,31 +136,9 @@ body {
     color: #000000;
 }
 
-.main-menu {
-    display: flex;
-}
-.main-menu li a {
-    text-decoration: none;
-    display: block;
-    padding-left: 50px;
-    padding-top: 20px;
-    color: #3c4146;
-}
-.main-menu li a:hover{
-    color: #4078c0
-}
-.pfInfo .name {
-    font-weight: bold;
-    font-size: 14px;
-    color: #0578FE;
-}
 
-.section {
-    position: relative; 
-    box-sizing: border-box;
-    margin: 0 auto;
-}
 .inner .tiles {
+    margin: 0 auto;
     margin-bottom: 20px;
     height: 1500px;
 }
@@ -158,14 +146,14 @@ body {
     list-style-type : none;
     border-radius: 15px;
     background: #ffffff;
-    padding: 20px 10px;
+    padding: 18px 10px;
     text-align: center;
     line-height: 1.5;
     border-right: 1px solid #e5e5e5;
     box-sizing: border-box;
     float: left;
     width: 23%;
-    height: 280px;
+    height: 290px;
     margin-left: 10px;
     margin-bottom: 10px;
     box-shadow: 1px 1px 5px 1px rgba(47, 76, 207, 0.2);
@@ -187,7 +175,7 @@ body {
     font-family: 'GmarketSansMedium';
     font-size: 15px;
     font-weight: 500;
-    margin-bottom: 4px;
+    margin-bottom: 2px;
 }
 .inner .tiles li p {
   font-size: 10px;
@@ -198,30 +186,54 @@ body {
     display: inline-block;
     background: #eaeefd;
     color: #0578FE;
-    font-size: 8px;
-    padding: 3px 12px 3px 12px;
+    font-size: 10px;
+    font-weight: 500;
+    padding: 3px 8px 3px 8px;
     border-radius: 4px;
-    margin: 3px 18px 3px 18px;
+    margin: 8px 13px 3px 13px;
     text-align: center;
     box-shadow: 1px 1px 1px 1px rgba(121, 137, 207, 0.2);
 }
-.inner .tiles .office{
-    font-size: 10px;
-    display: block;
-    width: 45%;
-    background: #eaeefd;
-    text-align: center;
-    margin: 0 auto;
+.inner .tiles table {
+    width: 100%;
     margin-top: 10px;
-    margin-left: 6px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    border-radius: 10px;
-    float: left;
-    box-shadow: 1px 1px 1px 1px rgba(121, 137, 207, 0.2);
+    border-top: 1px solid #c2c8df8f;
+    border-collapse: collapse;
+}
+.inner .tiles .line {
+    width: 100%;
+    margin-top: 25px;
+    border-top: 1px solid #c2c8df8f;
+    border-collapse: collapse;
+}
+.inner .tiles .td1 {
+    border-right: 1px solid #c2c8df8f;
+    padding: 12px;
+    width: 45%;
+    font-size: 11px;
+}
+.inner .tiles .td2 {
+    width: 45%;
+    font-size: 11px;
 }
 
+
+
+
+
+
 @media screen and (max-width: 580px) {
+    .inner {
+        padding-left: 12px;
+        padding-right: 0px;
+        margin: 0 auto;
+    }
+    .inner .tiles {
+        padding: 0;
+        margin: 0 auto;
+        margin-left: 15px;
+        height: 300vh;
+    }
     .classTab {
         margin-bottom: 15px;
     }
@@ -244,7 +256,7 @@ body {
     .inner .major_title_1 {
         padding-top: 8px;
         font-size: 12px;
-        font-weight: 400;
+        font-weight: bold;
     }
     .inner .major_title_2 {
         font-size: 36px;
@@ -257,9 +269,64 @@ body {
         text-shadow: 0px 4px 4px rgba(0,0,0,0.2);
     }
 
-    /* .footer .footer_center li{
-        width: 100%;
-        margin: 0 auto;
+    .inner .tiles li {
+        background: #ffffff;
+        padding: 15px 8px;
+        width: 46%;
+        height: 240px;
+        margin-bottom: 10px;
+    }
+    .inner .tiles li img {
+      width: 68px;
+      height: 68px;
+    }
+    .inner .tiles li h3 {
+        font-size: 15px;
+        font-weight: 500;
+        margin-top: 5px;
+        margin-bottom: 2px;
+    }
+    .inner .tiles li p {
+      padding: 2px;
+      margin-bottom: 0px;
+    }
+    .inner .tiles .majordiv {
+        font-weight: lighter;
+        font-size: 8px;
         text-align: center;
-    } */
+        align-items: center;
+        margin: 0 auto;
+        padding: 4px 6px 4px 6px;
+        margin-left: 0px;
+        margin-top: 5px;
+        margin-bottom: 8px;
+    }
+    .inner .tiles table {
+        margin-top: 5px;
+    }
+    .inner .tiles .line {
+        width: 100%;
+        margin-top: 20px;
+        border-top: 1px solid #c2c8df8f;
+        border-collapse: collapse;
+    }
+    .inner .tiles .td1 {
+        border-right: 1px solid #c2c8df8f;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding: 10px;
+        width: 45%;
+        font-size: 7px;
+    }
+    .inner .tiles .td2 {
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        width: 45%;
+        font-size: 7px;
+        font-weight: lighter;
+    }
+
+    /* .footer .footer_center li{
+            width: 100%;
+            margin: 0 auto;
+            text-align: center;
+        } */
 }
