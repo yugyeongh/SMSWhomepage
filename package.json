@@ -53,6 +53,5 @@
   },
   "devDependencies": {
     "@webpack-cli/serve": "^1.5.2"
-  },
-  "type":"module"
+  }
 }
