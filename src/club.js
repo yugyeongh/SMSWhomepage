@@ -1,5 +1,6 @@
 import React from 'react';
 import './club.css';
+import './clubMobile.css';
 
 const Club = () => {
     return(
