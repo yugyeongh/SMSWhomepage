@@ -24,7 +24,7 @@ function Main() {
                     <li>
                         <div className="card">
                             <div className="content">
-                            <h2>01</h2><h3>Computer Science</h3><p>정보사회의 나침판,<br />소프트웨어 전문 인재</p>
+                            <h2>01</h2><h3>Computer<br/>Science</h3><p>정보사회의 나침판,<br />소프트웨어 전문 인재</p>
                             <a className="cardlink" href="/cs_intro">Read More</a>
                             </div>
                         </div>
@@ -55,7 +55,7 @@ function Main() {
                 <a className="smLink" href="https://wise.sookmyung.ac.kr" align="center" target="_blank" rel="noreferrer">SM WISE</a>
             </div>
 
-            <div className="footer2 inner2">
+            <div className="footer2">
                 <ul className="footer_center">
                     <li>ⓒ Comsongz Corp.</li>
                     <li>Creator | Comsongz</li>
