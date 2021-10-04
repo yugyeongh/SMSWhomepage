@@ -30,7 +30,7 @@ body {
 .inner .main__banner {
     position: relative;
     margin: 0 auto;
-    width: 700px;
+    max-width: 700px;
     margin-top: 130px;
     margin-bottom: 30px;
     padding-bottom: 25px;
@@ -103,20 +103,22 @@ body {
 
 .inner .summary__title {
     display: block;
+    margin-right: 10px;
+    margin-left: 10px;
     padding-top: 10px;
-    font-size: 18px;
+    font-size: 1em;
 }
 
 .inner p {
+    padding: 10px;
     margin: auto;
     max-width: 780px;
 }
 .inner .summary__description {
     display: block;
-    padding-top: 10px;
     font-size:14px;
     color: #626262;
-    padding-bottom: 70px;
+    padding: 10px 10px 70px 10px;
 }
 .inner .summary__description span {
     color: #000000;

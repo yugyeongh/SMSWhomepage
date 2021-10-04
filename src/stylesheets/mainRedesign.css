@@ -11,18 +11,6 @@
     font-style: normal;
 }
 
-* 
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body {
-    font-family: 'GmarketSansLight';
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 body::before {
     content: '';
     position:fixed;
@@ -31,10 +19,43 @@ body::before {
     width: 100%;
     height: 100%;
     background: linear-gradient(rgb(255, 186, 201), rgb(162, 224, 248));
-    /* background: linear-gradient(#f00,#f0f); */
     clip-path: circle(30% at right 70%);
 }
-body::after {
+
+.inner2 {
+    max-width: 980px;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer2 {
+    margin-top: 15px;
+    box-sizing: border-box;
+    position: relative;
+    max-width: 980px;
+    justify-content: center;
+    bottom: 0;
+    border-top: 1px solid #0579fe4d;
+    height: 80px;
+    padding: 10px;
+    background: none;
+    overflow: hidden;
+}
+.footer2 .footer_center li {
+    width: 25%;
+    box-sizing: border-box;
+    position: relative;
+    font-size: 6px;
+    color:#0578FE;
+    font-weight: bold;
+    padding: 10px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 70px;
+    background: none;
+}
+.container2::before {
     content: '';
     position: absolute;
     top: 0;
@@ -42,67 +63,75 @@ body::after {
     width: 100%;
     height: 100%;
     background:  linear-gradient(rgb(162, 224, 248), rgb(45, 132, 247));
-    
-    /* background: linear-gradient(#2196f3,#e91e63); */
     clip-path: circle(20% at 10% 10%);
 }
-.container {
-    position: relative;
-    width: 100%;
-    display: flex;
-    margin-top: 10vh;
-    justify-content: center;
-    /* max-width: 1200px; */
-    flex-wrap: wrap;
-    z-index: 1;
-    overflow: hidden;
-}
-.container .card {
-    position:relative;
-    width: 26%;
-    height: 50vh;
-    margin: 30px;
-    box-shadow: 20px 20px 50px rgba(43, 93, 160, 0.3);
-    border-radius: 15px;
-    background: rgba(255,255,255,0.1);
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-top: 1px solid rgba(255,255,255,0.5);
-    border-left: 1px solid rgba(255,255,255,0.5);
-    backdrop-filter: blur(5px); 
-}
-.container .card .content {
-    padding: 20px;
-    text-align: center;
-    opacity: 1;
-    transition: 0.5%;
+
+.container2 {
+    padding: 0;
+    margin: 0 auto;
+    margin-top: 80px;
 }
 
-.container .card .content h2 {
+@media screen and (min-width: 581px) {
+    .tiles ul {
+        list-style: none;
+    }
+    .tiles .inner {
+      max-width: 980px;
+      margin: 0 auto;
+      box-sizing: border-box;
+      position: relative;
+    }
+    .tiles li {
+      padding: 34px 10px;
+      text-align: center;
+      line-height: 1.5;
+      box-sizing: border-box;
+      float: left;
+      width: 33%;
+    }
+    .tiles li .card {
+        width: 80%;
+        height: 48vh;
+        margin-left: 20px;
+        box-shadow: 20px 20px 50px rgba(43, 93, 160, 0.3);
+        border-radius: 15px;
+        background: rgba(255,255,255,0.1);
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top: 1px solid rgba(255,255,255,0.5);
+        border-left: 1px solid rgba(255,255,255,0.5);
+        backdrop-filter: blur(5px);
+    }
+    .inner li .card .content .cardlink:hover {
+        color:#2196f3;
+    }
+}
+
+.inner li .card .content h2 {
     position: absolute;
     top: -80px;
     right: 30px;
     font-size: 8em;
     color: rgba(255,255,255,0.05);
     pointer-events: none;
-
 }
-.container .card .content h3 {
+.inner li .card .content h3 {
     font-size: 1.3em;
     color: rgb(0, 0, 0);
     z-index: 1;
     margin-bottom: 0.3em;
     font-family: 'GmarketSansMedium', sans-serif;
 }
-.container .card .content p {
+.inner li .card .content p {
     font-size: 0.6em;
     color: rgb(0, 0, 0);
     font-weight: 300;
     font-family: 'GmarketSansLight', sans-serif;
 }
-.container .card .content .cardlink {
+.inner li .card .content .cardlink {
     position: relative;
     display: inline-block;
     padding: 8px 20px;
@@ -115,13 +144,57 @@ body::after {
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
     z-index: 999;
 }
-.container .card .content .cardlink:hover {
-    color:#2196f3;
+.inner li .card .content {
+    padding: 20px;
+    text-align: center;
+    opacity: 1;
+    transition: 0.5%;
 }
+
+
+
+@media screen and (max-width: 580px) {
+    .tiles ul {
+        list-style: none;
+    }
+    .tiles ul {
+        margin: 0 auto;
+        box-sizing: border-box;
+        position: relative;
+    }
+    .tiles ul li {
+        padding: 34px 24px 8px 24px;
+        text-align: center;
+        line-height: 1.5;
+        box-sizing: border-box;
+        float: left;
+        width: 100%;
+    }
+    .tiles ul li .card {
+        width: 85%;
+        height: 48vh;
+        margin-left: 32px;
+        margin-bottom: 15px;
+        box-shadow: 10px 10px 30px rgba(43, 93, 160, 0.3);
+        border-radius: 15px;
+        background: rgba(255,255,255,0.1);
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top: 1px solid rgba(255,255,255,0.5);
+        border-left: 1px solid rgba(255,255,255,0.5);
+        backdrop-filter: blur(5px);
+    }
+    
+}
+
+
+
 .linkTab {
-    position: absolute;
-    top:60vh;
-    float: left;
+    max-width: 980px;
+    margin: 0 auto;
+    text-align: center;
 }
 .linkTab .smLink {
     position:relative;
@@ -132,13 +205,33 @@ body::after {
     margin-top: 15px;
     text-decoration: none;
     justify-content: center;
-    align-items: center;
     font-size: 10px;
-    margin-bottom : 20px;
+    margin-bottom : 10px;
 }
 .smLink:hover {
     color: #e91e63;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @keyframes p1 {
     0% {
@@ -269,10 +362,11 @@ body::after {
 .points {
     position: absolute;
     overflow: hidden;
+    top: 0;
     width: 100%;
     margin: 0 auto;
     float: left;
-    height: 100vh;
+    height: 100%;
     z-index: 0;
 }
 .point {
