@@ -234,7 +234,8 @@ body {
     .inner .tiles {
         padding: 0;
         margin: 0 auto;
-        margin-left: 15px;
+        /* margin-left: 15px; */
+        margin-right: 8px;
         height: 300vh;
     }
     .classTab {
